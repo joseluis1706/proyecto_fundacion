@@ -1,5 +1,36 @@
+:root{
+    --bg-menu:#8ecae6;
+    --font:1.25em;
+}
+body{
+    font-size: var(--font);
+}
+
+.nav-lm{
+    height: 6em;
+    background-color:white;
+    
+}
+.menu-lm{
+    background-color: white;
+}
+.menu-lm ul li a:hover{
+    background-color: var(--bg-menu);
+    border-radius: 0.2em;
+}
+.logo img{
+    width: 100px;
+    height: 90px;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
 
 .seccion {
     border: 1px solid red;
     background-color: rgba(128, 128, 128, 0.364);
+    
+}
+.contenedor-nav{
+    margin-bottom: 2em;
 }
