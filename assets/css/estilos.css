@@ -14,9 +14,9 @@ body{
 
 .nav-lm{
     height: 6em;
-    /* position: fixed; */
+    position: fixed;
     width: 100vw;
-    /* z-index: 1; */
+    z-index: 1;
     margin-bottom: 2em;
     background-color:white;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
@@ -71,10 +71,6 @@ body{
 .container{
     display: flex;
     flex-flow: column nowrap;
-}
-main{
-    background-color: #102542;
-    max-height: max-content;
 }
 a{
     color:#F7F8E0;
