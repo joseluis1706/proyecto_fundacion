@@ -13,21 +13,29 @@ body{
 
 .nav-lm{
     height: 6em;
+    /* position: fixed; */
+    width: 100vw;
+    /* z-index: 1; */
+    margin-bottom: 2em;
     background-color:white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     
 }
 .menu-lm{
     background-color: white;
+    
 }
 .menu-lm ul li a:hover{
     background-color: var(--bg-menu);
     border-radius: 0.2em;
+    width: 90%;
 }
 .logo img{
-    width: 100px;
+    width: 200px;
     height: 90px;
     margin-top: 1.5em;
-    margin-left: 2em;
 }
 .seccion {
     border: 1px solid red;
