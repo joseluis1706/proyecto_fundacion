@@ -1,7 +1,24 @@
+@media screen and (max-width: 1024px){
+    .redes a{
+        font-size: 1em;
+    }
+    .redes{
+        margin-right: .5em;   
+    }
+    .logo img{
+        width: 100px;
+        height: 70px;
+    }
+}
+
+
 @media screen and (max-width:768px){
     .logo img{
-        width: 150px;
+        width: 100px;
         height: 70px;
+    }
+    .redes a{
+        font-size: .8em;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -24,6 +41,9 @@
     .logo img{
         width: 100px;
         height: 60px;
+    }
+    .redes a{
+        font-size: .8em;
     }
 
 }

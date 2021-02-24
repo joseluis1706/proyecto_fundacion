@@ -7,6 +7,7 @@
     --bg-menu:#8ecae6;
     --font:1.25em;
 }
+
 body{
     font-size: var(--font);
 }
@@ -25,6 +26,7 @@ body{
 }
 .menu-lm{
     background-color: white;
+    width: 80%;
     
 }
 .menu-lm ul li a:hover{
@@ -33,7 +35,7 @@ body{
     width: 90%;
 }
 .logo img{
-    width: 200px;
+    width: 150px;
     height: 90px;
     margin-top: 1.5em;
 }
@@ -43,6 +45,47 @@ body{
 }
 .contenedor-nav{
     margin-bottom: 2em;
+}
+
+.redes{
+    display: flex;
+    margin-right: 3em;   
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.redes a:hover{
+    color: white;
+}
+.facebook{
+    border-radius: 50%;
+    background-color: #3b5998;
+    padding: .4em;
+}
+.whatsapp{
+    border-radius: 50%;
+    background-color: #25D366;
+    padding: .4em;
+}
+.whatsapp:hover{
+    color: white;
+    transform: rotateX(30deg);
+    transform: rotateY(45deg);
+    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
+   
+}
+.facebook:hover{
+    color: white;
+    transform: rotateX(30deg);
+    transform: rotateY(45deg);
+    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
 }
 
  /****Seccion de Boton Donar****/
