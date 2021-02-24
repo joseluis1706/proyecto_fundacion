@@ -9,6 +9,9 @@
         width: 100px;
         height: 70px;
     }
+    .hero video{
+        transform: translateX(-50%) translateY(-30%); 
+    }
 }
 
 
@@ -19,6 +22,9 @@
     }
     .redes a{
         font-size: .8em;
+    }
+    .hero video{
+        transform: translateX(-80%) translateY(-30%); 
     }
 }
 @media only screen and (max-width: 600px) {
@@ -45,5 +51,28 @@
     .redes a{
         font-size: .8em;
     }
+    .hero video{
+        transform: translateX(-80%) translateY(-30%); 
+    }
 
+}
+
+
+@media screen and (max-width: 420px){
+    .hero video{
+        transform: translateX(-60%) translateY(-20%);    
+    }
+   
+     .hero .hero-container-text p{
+         width: 100%;
+         color: white;
+         font-size: 1.2em;
+     }
+     .hero .hero-container-text a{
+         width: 100%;
+         padding: 5px;
+         margin-top: 30px;
+         font-size: 1em;
+     
+     } 
 }
