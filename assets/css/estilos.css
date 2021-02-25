@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 :root{
-    --bg-menu:#8ecae6;
     --font:1.25em;
-    --btn-fundacion:#285FAB;
+    --bg:#0077b6;
+    --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
 }
-
 body{
     font-size: var(--font);
 }
 
-
+.nav-item  span:hover{
+    color: white;
+   
+}
 .nav-lm{
     height: 6em;
     position: fixed;
@@ -30,8 +32,11 @@ body{
     background-color: white;
     width: 60%;
 }
+.items:hover{
+    color: white;
+}
 .menu-lm ul li a:hover{
-    background-color: var(--bg-menu);
+    background-color: var(--bg);
     border-radius: 0.2em;
     width: 90%;
 }
@@ -88,29 +93,38 @@ body{
 
  /****Seccion de Boton Donar****/
 .btn-flotante{
-    font-size: 18px; /* Cambiar el tamaño de la tipografia */
+    font-size: 1em; /* Cambiar el tamaño de la tipografia */
     text-transform: uppercase; /* Texto en mayusculas */
     font-weight: bold; /* Fuente en negrita o bold */
-    color: #ffffff; /* Color del texto */
+    color: white; /* Color del texto */
     text-decoration: none;
-    border-radius: 50%; /* Borde del boton */
+    border-radius: 1em 20em; /* Borde del boton */
     letter-spacing: 1px; /* Espacio entre letras */
-    background-color: #FFBF00; /* Color de fondo */
-    padding: 10px 15px; /*Relleno del boton */
+    background-image: var(--bg-gradient);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    padding: 1em 2em; /*Relleno del boton */
     position: fixed;
     bottom: 40px;
     right: 40px;
-    /* transition: all 300ms ease 0ms; */
+    transition: all 1s ease 0ms;
     /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
     z-index: 99;
 }
 
 .btn-flotante:hover{
-    background-color: #A9A9F5;
-    color: #FE2E2E;
+    color: white;
     cursor: pointer;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-    transform: translateY(-7px);
+    transform: scale(1.1);
+}
+.btn-flotante span{
+    padding-left: .5em;
+}
+.btn-flotante .mano{
+    color: #d10606;
+    padding: .4em;
+    font-size: 1.140em;
 }
 .container{
     display: flex;
@@ -265,6 +279,7 @@ h3{
     text-shadow: 0px 0px 10px rgba(3, 3, 3, 0.89);
     background-color: transparent;
     margin: 0 auto;
+    
 }
 .hero .hero-container-text a{
     width: 60%;
@@ -274,11 +289,17 @@ h3{
     padding: 5px;
     margin-top: 30px;
 
-    background-color: var(--btn-fundacion);
+    background-color: var(--bg);
     border-radius: 50px;
+    transition: transform .2s;
+    transition: all 2s ease 0ms;
+    
     
     font-size: 1em;
     color: white;
     text-align: center;
     text-decoration: none;
+}
+.hero .hero-container-text a:hover{
+    transform: scale(1.5);
 }
