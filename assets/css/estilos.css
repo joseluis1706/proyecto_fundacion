@@ -13,6 +13,7 @@ body{
     font-size: var(--font);
 }
 
+
 .nav-lm{
     height: 6em;
     position: fixed;
@@ -27,7 +28,7 @@ body{
 }
 .menu-lm{
     background-color: white;
-    width: 80%;
+    width: 60%;
 }
 .menu-lm ul li a:hover{
     background-color: var(--bg-menu);
@@ -37,7 +38,8 @@ body{
 .logo img{
     width: 150px;
     height: 90px;
-    margin-top: 1.5em;
+    margin-top: 1em;
+    margin-left:2em
 }
 .contenedor-nav{
     margin-bottom: 2em;
@@ -201,7 +203,7 @@ h3{
     margin-top: 70px;
 }
 .nuestra_fundacion h3{
-    z-index: 1;
+    
     margin-top: -55px;
     font-size: 30px;
     text-align: center;
