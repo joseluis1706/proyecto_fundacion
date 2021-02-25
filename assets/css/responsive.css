@@ -8,14 +8,38 @@
     .logo img{
         width: 100px;
         height: 70px;
-    }    
+        margin-top: -5px;
+        margin-left: 1em;
+    } 
+    .nav-lm{
+        height: 4.5em;
+    }
+    .menu-lm{
+        width: 80%;
+    }
+    .navbar{
+        padding-top: 0em;
+        padding-bottom: 0;
+        margin-top: 0;
+    }   
 }
 
 
 @media screen and (max-width:768px){
     .logo img{
-        width: 100px;
-        height: 70px;
+        width: 95px;
+        height: 55px;
+        margin-top: -5px;
+        margin-left: 0;
+    } 
+    .nav-lm{
+        height: 4em;
+    }
+    
+    .navbar{
+        padding-top: 0em;
+        padding-bottom: 0;
+        margin-top: 0;
     }
     .redes a{
         font-size: .8em;
@@ -39,8 +63,17 @@
         height: 869px;
     }
     .logo img{
-        width: 100px;
-        height: 60px;
+        width: 90px;
+        height: 45px;
+        margin-top: 1px;
+    } 
+    .nav-lm{
+        height: 3.8em;
+    }
+    .navbar{
+        padding-top: 0em;
+        padding-bottom: 0;
+        margin-top: 0;
     }
     .redes a{
         font-size: .8em;
@@ -60,5 +93,18 @@
         padding: 5px;
         margin-top: 30px;
         font-size: 1em;
+    }
+    .logo img{
+        width: 70px;
+        height: 45px;
+        margin-top: 5px;
     } 
+    .nav-lm{
+        height: 4em;
+    }
+    .navbar{
+        padding-top: 0em;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
 }
