@@ -8,10 +8,7 @@
     .logo img{
         width: 100px;
         height: 70px;
-    }
-    .hero video{
-        transform: translateX(-50%) translateY(-30%); 
-    }
+    }    
 }
 
 
@@ -23,24 +20,21 @@
     .redes a{
         font-size: .8em;
     }
-    .hero video{
-        transform: translateX(-80%) translateY(-30%); 
-    }
-}
+    
 @media only screen and (max-width: 600px) {
     .btn-flotante{
-       font-size: 10px;
-       padding: 8px 8px;
-       bottom: 20px;
-       right: 10px;
-   }
-   .btn-flotante:hover{
-       background: #5858FA;
-       color: #FE2E2E;
-       cursor: pointer;
-       box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-       transform: translateY(-7px);
-} 
+        font-size: 10px;
+        right: 10px;
+        padding: 8px 8px;
+        bottom: 20px;
+    }
+    .btn-flotante:hover{
+        color: #FE2E2E;
+        cursor: pointer;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+        background: #5858FA;
+    }
     .options{
         height: 869px;
     }
@@ -51,28 +45,20 @@
     .redes a{
         font-size: .8em;
     }
-    .hero video{
-        transform: translateX(-80%) translateY(-30%); 
-    }
 
 }
 
 
 @media screen and (max-width: 420px){
-    .hero video{
-        transform: translateX(-60%) translateY(-20%);    
+    .hero .hero-container-text p{
+        width: 100%;
+        color: white;
+        font-size: 1.2em;
     }
-   
-     .hero .hero-container-text p{
-         width: 100%;
-         color: white;
-         font-size: 1.2em;
-     }
-     .hero .hero-container-text a{
-         width: 100%;
-         padding: 5px;
-         margin-top: 30px;
-         font-size: 1em;
-     
-     } 
+    .hero .hero-container-text a{
+        width: 100%;
+        padding: 5px;
+        margin-top: 30px;
+        font-size: 1em;
+    } 
 }
