@@ -1,3 +1,10 @@
+@media screen and (min-width: 1024px){
+    .collapse {
+        background-color: transparent;
+    }
+}
+
+
 @media screen and (max-width: 1024px){
     .redes a{
         font-size: 1em;
@@ -21,7 +28,8 @@
         padding-top: 0em;
         padding-bottom: 0;
         margin-top: 0;
-    }   
+    }
+   
 }
 
 
@@ -45,9 +53,14 @@
         font-size: .8em;
     }
     .btn-flotante{
-        font-size: .9em; 
-        padding: .6em 1em; 
+        font-size: .8em; 
+        padding: .5em .8em; 
         right: 10px;
+    }
+    .hero .hero-container-text a{
+        width: 50%;
+        border-radius:2em;
+        font-size: .8em;
     }
   
 }    
@@ -91,17 +104,17 @@
 } */
 
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 425px){
     .hero .hero-container-text p{
-        width: 100%;
+        width: 100vw;
         color: white;
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .hero .hero-container-text a{
         width: 100%;
-        padding: 5px;
+        padding: 0.30em;
         margin-top: 30px;
-        font-size: 1em;
+        font-size: .8em;
     }
     .logo img{
         width: 70px;
@@ -122,7 +135,7 @@
     .btn-flotante{
         font-size: 0.75em; /* Cambiar el tamaño de la tipografia */
         padding: .4em 0.75em; /*Relleno del boton */
-        right: 5px;
+        right: 2px;
 
 
     }
