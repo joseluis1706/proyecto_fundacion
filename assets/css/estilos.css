@@ -6,6 +6,7 @@
 :root{
     --font:1.25em;
     --bg:#0077b6;
+    --bg-gradient-principal:  radial-gradient(circle at 120.71% 50%, #ddbaff 0, #8f8dff 25%, #425ed4 50%, #003185 75%, #000641 100%);
     --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
 }
 body{
@@ -30,6 +31,9 @@ body{
 .menu-lm{
     background-color:transparent;
     width: 60%;
+}
+.collapse {
+    background-color: rgba(255, 255, 255, 0.692);
 }
 .items:hover{
     color: white;
@@ -69,16 +73,17 @@ body{
     border-radius: 50%;
     background-color: #3b5998;
     padding: .4em;
+    transition: 1.5s;
 }
 .whatsapp{
     border-radius: 50%;
     background-color: #25D366;
     padding: .4em;
+    transition: 1.5s;
 }
 .whatsapp:hover{
     color: white;
-    transform: rotateX(30deg);
-    transform: rotateY(45deg);
+    transform: rotateX(360deg);
     box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
     -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
@@ -86,8 +91,7 @@ body{
 }
 .facebook:hover{
     color: white;
-    transform: rotateX(30deg);
-    transform: rotateY(45deg);
+    transform: rotateX(360deg);
     box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
     -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
@@ -291,10 +295,11 @@ h3{
     padding: 5px;
     margin-top: 30px;
 
-    background-color: var(--bg);
+    background: var(--bg-gradient-principal);
     border-radius: 50px;
-    transition: transform .2s;
-    transition: all 1s ease;
+    transition: transform .3s;
+    animation: btn 2s infinite ease;
+    /* transition: all  1s ease; */
     
     
     font-size: 1em;
@@ -302,10 +307,15 @@ h3{
     text-align: center;
     text-decoration: none;
 }
-.hero .hero-container-text a:hover{
+@keyframes btn {
+    from { transform: none; }
+    50% { transform: scale(1.3); }
+    to { transform: none; }
+}
+/* .hero .hero-container-text a:hover{
     transform: scale(1.2);
     background-color: #055e8f;
-}
+} */
 /* SCROLL */
 
 .sticky{
