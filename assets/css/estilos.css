@@ -43,7 +43,7 @@ body{
 }
 .menu-lm ul li a:hover{
     background-color: var(--bg);
-    border-radius: 0.2em;
+    border-radius: 2em;
     width: 90%;
 }
 .logo img{
@@ -296,7 +296,7 @@ h3{
     margin-top: 30px;
 
     background: var(--bg-gradient-principal);
-    border-radius: 50px;
+    border-radius: 2em;
     transition: transform .3s;
     animation: btn 2s infinite ease;
     /* transition: all  1s ease; */
