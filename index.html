@@ -32,7 +32,7 @@
 <body>
 <!----------------BARRA DE NAVEGACIÓN--------------------------------------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-light nav-lm">
+    <nav id="header" class="navbar navbar-expand-lg navbar-light nav-lm">
       <div class="container-fluid logo">
         <a class="navbar-brand" href="#"><img src="assets/logo/Logo_funcovive.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -42,7 +42,7 @@
         <div class="collapse navbar-collapse menu-lm " id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active items" aria-current="page" href="#"><span class="iten-menu">Home</span></a>
+              <a class="nav-link active items" aria-current="page" href="index.html"><span class="iten-menu">Home</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
@@ -87,7 +87,7 @@
   <main>
     <section class="hero">
       <div class="container-video">
-        <video src="assets/video/video-1.mp4" autoplay muted loop  preload="auto"></video>
+        <video src="assets/video/video-1.mp4" autoplay muted controls loop  preload="auto"></video>
       </div>
       <article class="hero-container-text">
         <p>¡Trabajemos Juntos para lograr nuestra misión</p>
@@ -104,7 +104,7 @@
     <!-- Complementos y dependencias Bootstrap 5.0 JavaScript y Popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+    <script src="app.js"></script>
 </body>
 
 </html>
