@@ -14,26 +14,28 @@ body{
 
 .nav-item  span:hover{
     color: white;
-   
 }
 .nav-lm{
-    height: 6em;
+    height: 4em;
     position: fixed;
     width: 100vw;
     z-index: 1;
     margin-bottom: 2em;
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.596);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
     
 }
 .menu-lm{
-    background-color: white;
+    background-color:transparent;
     width: 60%;
 }
 .items:hover{
     color: white;
+}
+.menu-lm .navbar-nav .nav-item .nav-link{
+    color: black;
 }
 .menu-lm ul li a:hover{
     background-color: var(--bg);
@@ -41,9 +43,9 @@ body{
     width: 90%;
 }
 .logo img{
-    width: 150px;
-    height: 90px;
-    margin-top: 1em;
+    width: 80px;
+    height: auto;
+    margin-top: auto;
     margin-left:2em
 }
 .contenedor-nav{
@@ -104,7 +106,7 @@ body{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    padding: 1em 2em; /*Relleno del boton */
+    padding: .5em 1em; /*Relleno del boton */
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -218,7 +220,7 @@ h3{
 }
 .nuestra_fundacion h3{
     
-    margin-top: -55px;
+    margin-top: -75px;
     font-size: 30px;
     text-align: center;
 }
@@ -256,10 +258,10 @@ h3{
 
 .hero .hero-container-text{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
+
+    transform:translate(-50%,-50%);
     
     display: flex;
     flex-flow: column wrap;
@@ -292,7 +294,7 @@ h3{
     background-color: var(--bg);
     border-radius: 50px;
     transition: transform .2s;
-    transition: all 2s ease 0ms;
+    transition: all 1s ease;
     
     
     font-size: 1em;
@@ -301,5 +303,16 @@ h3{
     text-decoration: none;
 }
 .hero .hero-container-text a:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
+    background-color: #055e8f;
+}
+/* SCROLL */
+
+.sticky{
+    background-color: white;
+    
+}
+.sticky .logo img{
+    width: 60px;
+    height: auto;
 }
