@@ -23,10 +23,9 @@ body{
     z-index: 1;
     margin-bottom: 2em;
     background-color:rgba(255, 255, 255, 0.596);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
-    
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
 }
 .menu-lm{
     background-color:transparent;
@@ -46,11 +45,18 @@ body{
     border-radius: 2em;
     width: 90%;
 }
+/* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
+.logo-contenedor {
+    /* background-color: rgba(255, 0, 0, 0.344); */
+    width: auto;
+    margin-left: 2vh;
+    padding: 0;
+}
 .logo img{
-    width: 80px;
+    width: 60px;
     height: auto;
     margin-top: auto;
-    margin-left:2em
+    margin-left: ;
 }
 .contenedor-nav{
     margin-bottom: 2em;
