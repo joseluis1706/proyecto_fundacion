@@ -124,7 +124,6 @@ body{
     /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
     z-index: 99;
 }
-
 .btn-flotante:hover{
     color: white;
     cursor: pointer;
@@ -199,6 +198,39 @@ p{
     background-color: #F2F2F2;
     padding: 10px;
 }
+.donar-ancestro {
+    margin-top: 100px;
+}
+.donar-padre {
+    background-color: whitesmoke;
+}
+.donar-cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.donar-cuerpo p {
+    padding: 10px 0px;
+    width: auto;
+    background-color: whitesmoke;
+}
+.donar-cuerpo-logo {
+    width: 100%;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donar-cuerpo-logo img {
+    width: 70%;
+}
+
+
+
+
 
 /* seccion nuestra fundación*/
 
