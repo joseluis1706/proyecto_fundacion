@@ -1,0 +1,57 @@
+/* seccion nuestra fundación*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font:1.25em;
+    --bl:#000;
+}
+.carousel-item{
+    position: relative;
+    opacity: 0.4;
+}
+.carousel-item img{
+    margin-top: 155px;
+    height: 75vh;
+}
+.carousel-inner{
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.carousel-inner h3{
+    font-size: 18px;
+    color: #000000;
+    text-align: justify;
+    position: absolute;
+    font-weight: inherit;
+    margin-top: 190px;
+    line-height: 2.0;
+    padding: 10px;
+}
+.header_nuestra_fundacion{
+    margin-top: 158px;
+}
+.header_nuestra_fundacion a{
+    color: var(--bl);
+    margin-top: -40px;
+    margin-bottom: -100px;
+    position: fixed;
+    z-index: 99;
+}
+.header .nuestra_fundacion h3{
+    margin-top: -75px;
+    font-size: 30px;
+    text-align: center;
+}
+.title{
+    color: var(--bl);
+    margin-top: -28px;   
+    margin-bottom: -170px;
+}
+.card{
+    display: block;
+    margin: auto;
+}

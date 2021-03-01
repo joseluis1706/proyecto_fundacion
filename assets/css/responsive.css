@@ -138,10 +138,8 @@
         transform: scale(1.2);
     }
     .btn-flotante{
-        font-size: 0.75em; /* Cambiar el tamaño de la tipografia */
-        padding: .4em 0.75em; /*Relleno del boton */
+        font-size: 0.45em; 
+        padding: .4em 0.75em; 
         right: 2px;
-
-
     }
 }

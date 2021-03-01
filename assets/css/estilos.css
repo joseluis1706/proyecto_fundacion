@@ -56,7 +56,7 @@ body{
     width: 60px;
     height: auto;
     margin-top: auto;
-    margin-left: ;
+    /* margin-left:; */
 }
 .contenedor-nav{
     margin-bottom: 2em;
@@ -105,18 +105,18 @@ body{
 
  /****Seccion de Boton Donar****/
 .btn-flotante{
-    font-size: 1em; /* Cambiar el tamaño de la tipografia */
-    text-transform: uppercase; /* Texto en mayusculas */
-    font-weight: bold; /* Fuente en negrita o bold */
-    color: white; /* Color del texto */
+    font-size: 1em; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    color: white; 
     text-decoration: none;
-    border-radius: 1em 20em; /* Borde del boton */
-    letter-spacing: 1px; /* Espacio entre letras */
+    border-radius: 1em 20em; 
+    letter-spacing: 1px; 
     background-image: var(--bg-gradient);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    padding: .5em 1em; /*Relleno del boton */
+    padding: .5em 1em; 
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -137,7 +137,7 @@ body{
     padding: .4em;
     font-size: 1.140em;
 }
-.container{
+/* .container{
     display: flex;
     flex-flow: column nowrap;
 }
@@ -197,7 +197,7 @@ p{
     line-height: 1.5;
     background-color: #F2F2F2;
     padding: 10px;
-}
+} */
 .donar-ancestro {
     margin-top: 100px;
 }
@@ -226,49 +226,6 @@ p{
 }
 .donar-cuerpo-logo img {
     width: 70%;
-}
-
-
-
-
-
-/* seccion nuestra fundación*/
-
-.carousel-item{
-    position: relative;
-    opacity: 0.4;
-}
-.carousel-item img{
-    margin-top: 155px;
-    height: 75vh;
-}
-h3{
-    font-size: 18px;
-    color: #000000;
-    text-align: justify;
-    position: absolute;
-    font-weight: inherit;
-    margin-top: 190px;
-    line-height: 2.0;
-}
-
-.carousel-inner{
-    position: relative;
-    background-repeat: no-repeat;
-    object-fit: cover;
-}
-.nuestra_fundacion{
-    margin-top: 70px;
-}
-.nuestra_fundacion h3{
-    
-    margin-top: -75px;
-    font-size: 30px;
-    text-align: center;
-}
-.card{
-    display: block;
-    margin: auto;
 }
 /* MAIN */
 
