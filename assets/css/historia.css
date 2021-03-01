@@ -1,0 +1,58 @@
+/* seccion historia*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font:1.25em;
+    --bl:#000;
+}
+.carousel-item{
+    position: relative;
+    /* opacity: 0.8; */
+}
+.carousel-item img{
+    height: 100vh;
+    filter: grayscale(70%);
+}
+.carousel-inner p{
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+    line-height: 1.8;
+    padding: 30px;
+}
+.container-historia a{
+    color: #fff;
+    position: fixed;
+    z-index: 99;
+    margin: 85px;
+    margin-left: 30px;
+}
+.container-historia .title{
+    color: var(--bl);
+    margin-top: -28px;   
+    margin-bottom: -161px;
+}
+.card{
+    display: block;
+    margin: auto;
+}
+#container-historia .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  #container-historia .overlay .container,
+  #container-historia .overlay .row {
+    height: 100%;
+  }
+  .container-historia .frase-historia{
+  margin-top: 6px;
+  font-size: var(--font);
+}
