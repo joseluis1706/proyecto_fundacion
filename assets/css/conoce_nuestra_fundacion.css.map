@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,sBAAW;AAEnB,UAAU;EACN,UAAU,EAAE,GAAG;EACf,OAAO,EAAE,EAAE;;AACf,EAAE;EACE,KAAK,EAAE,KAAK",
+"sources": ["conoce_nuestra_fundacion.sass"],
+"names": [],
+"file": "conoce_nuestra_fundacion.css"
+}
