@@ -5,8 +5,16 @@
 }
 :root{
     --font:1.25em;
-    --bg:#0077b6;
-    --bg-gradient-principal:  radial-gradient(circle at 120.71% 50%, #ddbaff 0, #8f8dff 25%, #425ed4 50%, #003185 75%, #000641 100%);
+    --azul:#246C85;
+    --verder: #3BD67E;
+    --amarillo: #E3C453;
+    --naranja: #FF8E58;
+    --rojo: #F55353;
+    --gris_1: #212121;
+    --gris_2: #414141;
+    --gris_3: #616161;
+    --gris_4: #818181;
+    --bg-gradient-principal: linear-gradient(280deg, #00a7ca 0, #128aa9 25%, #246c85 50%, #275062 75%, #233742 100%);
     --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
 }
 body{
@@ -41,7 +49,7 @@ body{
     color: black;
 }
 .menu-lm ul li a:hover{
-    background-color: var(--bg);
+    background-color: var(--azul);
     border-radius: 2em;
     width: 90%;
 }
@@ -56,7 +64,7 @@ body{
     width: 60px;
     height: auto;
     margin-top: auto;
-    margin-left: ;
+    /* margin-left: ; */
 }
 .contenedor-nav{
     margin-bottom: 2em;
