@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font:1.25em;
+    --azul:#246C85;
+    --verder: #3BD67E;
+    --amarillo: #E3C453;
+    --naranja: #FF8E58;
+    --rojo: #F55353;
+    --gris_1: #212121;
+    --gris_2: #414141;
+    --gris_3: #616161;
+    --gris_4: #818181;
+    --bg-gradient-principal:  radial-gradient(circle at 120.71% 50%, #ddbaff 0, #8f8dff 25%, #425ed4 50%, #003185 75%, #000641 100%);
+    --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
+}
+body{
+    font-size: var(--font);
+}
+
+.nav-item  span:hover{
+    color: white;
+}
+.nav-lm{
+    height: 4em;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    margin-bottom: 2em;
+    /* background-color:rgba(255, 255, 255, 0.596); */
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+}
+.menu-lm{
+    background-color:white;
+    width: 60%;
+}
+.collapse {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.items:hover{
+    color: white;
+}
+.menu-lm .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.menu-lm ul li a:hover{
+    background-color: var(--azul);
+    border-radius: 2em;
+    width: 90%;
+}
+/* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
+.logo-contenedor {
+    /* background-color: rgba(255, 0, 0, 0.344); */
+    width: auto;
+    margin-left: 2vh;
+    padding: 0;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+    margin-top: auto;
+    /* margin-left: ; */
+}
+.contenedor-nav{
+    margin-bottom: 2em;
+}
+
+.redes{
+    display: flex;
+    margin-right: 3em;   
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.redes a:hover{
+    color: white;
+}
+.facebook{
+    border-radius: 50%;
+    background-color: #3b5998;
+    padding: .4em;
+    transition: 1.5s;
+}
+.whatsapp{
+    border-radius: 50%;
+    background-color: #25D366;
+    padding: .4em;
+    transition: 1.5s;
+}
+.whatsapp:hover{
+    color: white;
+    transform: rotateX(360deg);
+    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
+   
+}
+.facebook:hover{
+    color: white;
+    transform: rotateX(360deg);
+    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
+}
+
+ /****Seccion de Boton Donar****/
+.btn-flotante{
+    font-size: 1em; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: white; /* Color del texto */
+    text-decoration: none;
+    border-radius: 1em 20em; /* Borde del boton */
+    letter-spacing: 1px; /* Espacio entre letras */
+    background-image: var(--bg-gradient);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    padding: .5em 1em; /*Relleno del boton */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 1s ease 0ms;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    z-index: 99;
+}
+.btn-flotante:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.btn-flotante span{
+    padding-left: .5em;
+}
+.btn-flotante .mano{
+    color: #d10606;
+    padding: .4em;
+    font-size: 1.140em;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.container-donar{
+    background-color: #102542;
+    max-height: max-content;
+}
+a{
+    color:#F7F8E0;
+    margin: 10px;
+}
+a:hover{
+    color:#FFBF00 ;
+    cursor: pointer;
+}
+h1, h2{
+    text-align: center;
+    font-size: 30px;
+    color: #F7F8E0;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.options{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+}
+.option1 img{
+    width: 30vw;
+    margin-bottom: 20px;
+}
+.option2 img{
+    width: 30vw;
+    margin-bottom: 20px;
+}
+.option3 img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 40px;
+}
+p{
+    color: #000000;
+    text-align: justify;
+    display: block;
+    margin: auto;
+    width: 95%;
+    font-size: 16px;
+    border-radius: 3%;
+    line-height: 1.5;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+.donar-ancestro {
+    margin-top: 100px;
+}
+.donar-padre {
+    background-color: whitesmoke;
+}
+.donar-cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.donar-cuerpo p {
+    padding: 10px 0px;
+    width: auto;
+    background-color: whitesmoke;
+}
+.donar-cuerpo-logo {
+    width: 100%;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donar-cuerpo-logo img {
+    width: 70%;
+}
+.container-footer {
+    margin-top: 100vh;
+    text-align: center;
+    background: var(--gris_1);
+    color: white;
+    padding: 1em; 
+}
