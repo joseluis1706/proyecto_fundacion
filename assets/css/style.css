@@ -6,7 +6,7 @@
 :root{
     --font:1.25em;
     --azul:#246C85;
-    --verder: #3BD67E;
+    --verde: #3BD67E;
     --amarillo: #E3C453;
     --naranja: #FF8E58;
     --rojo: #F55353;
@@ -189,7 +189,7 @@ a{
     width: 70%;
 }
 .container-footer {
-    margin-top: 100vh;
+    /* margin-top: 20vh; */
     text-align: center;
     background: var(--gris_1);
     color: white;

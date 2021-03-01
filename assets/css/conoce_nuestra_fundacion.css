@@ -1,9 +1,9 @@
 @import url(style.css);
-.display-4 {
-  margin-top: 2em;
-  z-index: -2; }
-
-h1 {
-  color: black; }
+.jumbotron-fluid {
+  background: var(--azul);
+  color: white;
+  padding: 2em; }
+  .jumbotron-fluid .display-4 {
+    margin-top: 2em; }
 
 /*# sourceMappingURL=conoce_nuestra_fundacion.css.map */
