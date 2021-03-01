@@ -146,67 +146,16 @@ body{
     padding: .4em;
     font-size: 1.140em;
 }
-/* .container{
+.container{
     display: flex;
     flex-flow: column nowrap;
 }
-.container-donar{
-    background-color: #102542;
-    max-height: max-content;
-}
+
 a{
     color:#F7F8E0;
     margin: 10px;
 }
-a:hover{
-    color:#FFBF00 ;
-    cursor: pointer;
-}
-h1, h2{
-    text-align: center;
-    font-size: 30px;
-    color: #F7F8E0;
-    line-height: 1.5;
-    padding-top: 20px;
-}
-h2{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.options{
-    width: 99%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    margin-top: 10px;
-}
-.option1 img{
-    width: 30vw;
-    margin-bottom: 20px;
-}
-.option2 img{
-    width: 30vw;
-    margin-bottom: 20px;
-}
-.option3 img{
-    display: block;
-    margin: auto;
-    width: 40%;
-    margin-bottom: 40px;
-}
-p{
-    color: #000000;
-    text-align: justify;
-    display: block;
-    margin: auto;
-    width: 95%;
-    font-size: 16px;
-    border-radius: 3%;
-    line-height: 1.5;
-    background-color: #F2F2F2;
-    padding: 10px;
-} */
+
 .donar-ancestro {
     margin-top: 100px;
 }
