@@ -142,4 +142,21 @@
         padding: .4em 0.75em; 
         right: 2px;
     }
+    .container-main-historia .main-mision{
+        width: 84%;
+        height: auto;        
+    }
+    .container-main-historia .main-vision{
+        width: 84%;
+        height: auto;
+    }
+    .row{
+        --bs-gutter-x: 0rem;
+    }
+    ol, ul{
+        padding-left: 0.2rem;
+    }
+    .container-main-objeto-social .main-objeto{
+        margin-top: 15%;
+    }
 }
