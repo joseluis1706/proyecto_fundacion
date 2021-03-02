@@ -4,12 +4,12 @@ window.addEventListener("scroll", function(){
 })
 
 
-ScrollReveal().reveal('.eventos' , { delay: 900 });
-ScrollReveal().reveal('.card ' , { delay: 800 });
-ScrollReveal().reveal('p ' , { delay: 900 });
-ScrollReveal().reveal('h5 ', { delay: 900 });
-ScrollReveal().reveal('.btn ' , { delay: 900 });
-ScrollReveal().reveal('footer ' , { delay: 900 });
-ScrollReveal().reveal('iframe ' , { delay: 900 });
-ScrollReveal().reveal('.logo-footer' , { delay: 1400 });
-ScrollReveal().reveal('li' , { delay: 1400 });
+ScrollReveal().reveal('.eventos' , { delay: 700 });
+ScrollReveal().reveal('.card ' , { delay: 700 });
+ScrollReveal().reveal('p ' , { delay: 700 });
+ScrollReveal().reveal('h5 ', { delay: 700 });
+ScrollReveal().reveal('.btn ' , { delay: 700 });
+ScrollReveal().reveal('footer ' , { delay: 600 });
+ScrollReveal().reveal('iframe ' , { delay: 600 });
+ScrollReveal().reveal('.logo-footer' , { delay: 1000 });
+ScrollReveal().reveal('li' , { delay: 1000 });
