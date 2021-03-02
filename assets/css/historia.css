@@ -1,4 +1,6 @@
 /* seccion historia*/
+@import "style.css";
+@import "estilos.css";
 *{
     margin: 0;
     padding: 0;
@@ -10,14 +12,13 @@
 }
 .carousel-item{
     position: relative;
-    /* opacity: 0.8; */
 }
 .carousel-item img{
     height: 100vh;
     filter: grayscale(70%);
 }
 .carousel-inner p{
-    font-size: 18px;
+    font-size: .9em;
     color: #fff;
     text-align: justify;
     line-height: 1.8;
@@ -48,6 +49,10 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
   }
+  #container-historia .overlay h2{
+      font-size: 1.5em;
+      text-transform: uppercase;
+  }
   #container-historia .overlay .container,
   #container-historia .overlay .row {
     height: 100%;
@@ -56,3 +61,52 @@
   margin-top: 6px;
   font-size: var(--font);
 }
+.container-main-historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--gris_3) , var(--gris_4));
+}
+.container-main-historia .main-mision{
+    height: 30vh;
+    width: 40vw;
+    margin: 30px;
+    color: #fff;
+    margin-top: 60px;
+    line-height: 2.0em;
+ }
+ .container-main-historia .main-vision{
+    width: 40vw;
+    margin: 30px;
+    color: #fff;
+    margin-top: 60px;
+    line-height: 2.0em;
+ }
+   .container-main-historia h2{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .container-main-historia p{
+        text-align: justify;
+        font-size: .8em;
+    }
+    .container-main-objeto-social{
+        color: #fff;
+        background: linear-gradient(to bottom, var(--gris_4) , var(--gris_3));
+    }
+    .container-main-objeto-social .main-objeto{
+        margin-top: 8%;
+    }
+    .container-main-objeto-social .titulo{
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .container-main-objeto-social .lista-objeto{
+        list-style-type:circle;
+        text-align: justify;
+        margin: 40px;
+        line-height: 2.0;
+    }
