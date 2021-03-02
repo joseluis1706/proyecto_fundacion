@@ -7,6 +7,11 @@
 
 
 @media screen and (max-width: 1024px){
+
+    .collapse {
+        background-color: white;
+    }
+
     .redes a{
         font-size: 1em;
     }
