@@ -65,7 +65,7 @@ h3 {
 }
 
 footer {
-    background: var(--naranja);
+    background: var(--gris_3);
     display: flex;
     flex-flow: column wrap;
     margin-bottom: 0;
@@ -166,6 +166,7 @@ iframe{
         padding: 0;
         border: 0;
         box-sizing: content-box;
+        filter: contrast(1);
     
     }
 
