@@ -6,7 +6,7 @@
 :root{
     --font:1.25em;
     --azul:#246C85;
-    --verder: #3BD67E;
+    --verde: #3BD67E;
     --amarillo: #E3C453;
     --naranja: #FF8E58;
     --rojo: #F55353;
@@ -67,10 +67,10 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
-.logo-3colores {
-    /* background-color: rgba(255, 0, 0, 0.344); */
+/* .logo-3colores {
+    background-color: rgba(255, 0, 0, 0.344);
     
-}
+} */
 .logo-3colores img {
     margin: 0;
     width: 60px;
@@ -130,9 +130,9 @@ body{
     border-radius: 1em 20em; 
     letter-spacing: 1px; 
     background-image: var(--bg-gradient);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
     padding: .5em 1em; 
     position: fixed;
     bottom: 40px;
@@ -260,10 +260,10 @@ a{
     width: 95%;
     color: white;
     letter-spacing: 1px;
-    font-size: 1.6em;
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: 0px 0px 10px rgba(3, 3, 3, 0.89);
     background-color: transparent;
     margin: 0 auto;
@@ -293,6 +293,11 @@ a{
     from { transform: none; }
     50% { transform: scale(1.3); }
     to { transform: none; }
+}
+.hero-container-text span{
+    font-size: 1.5em;
+    color: var(--amarillo);
+    font-weight: bold;
 }
 /* .hero .hero-container-text a:hover{
     transform: scale(1.2);
