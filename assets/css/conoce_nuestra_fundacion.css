@@ -1,60 +1,83 @@
 @import url(style.css);
+@import url(estilos.css);
 .jumbotron-fluid {
-  background: var(--azul);
+  background: var(--bg-pages);
   color: white;
-  padding: 2em; }
-  .jumbotron-fluid .display-4 {
-    margin-top: 2em; }
+  padding: 2em;
+}
 
-/*# sourceMappingURL=conoce_nuestra_fundacion.css.map */
+.jumbotron-fluid .display-4 {
+  margin-top: 2em;
+  text-align: center; 
+  color: var(--naranja);
+  font-weight: bold;
+}
+.main p{
+  margin-bottom: 2em;
+}
 
-/*  ------------------------------------------ */
-/*    MODAL del BOTON DONAR */
-/* ------------------------------------------- */
-.donar-ancestro {
-  margin: 10px auto 0px;
-  width: 320px;
-  font-size: 14px;
+.container-slide{
+  margin: auto;
+  background-color: white;
+  width: 850px;
+  padding: 20px;
 }
-.donar-padre {
-  background-color: #818181;
-  border-radius: 6px;
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-.donar-cabecera {
-  border-radius: 6px 6px 0px 0px;
-  background-color: #818181;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
 }
-.donar-cabecera button {
-  border-bottom: 0px;
-  position: absolute;
-  right: 15px;
-  top: 15px;
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
 }
-.donar-banco-img img {
-  width: 250px;
+
+ul.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
-.donar-cuerpo {
-  border-radius: 10px 10px 0px 0px;
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+ul.slider li:first-child {
+    opacity: 1; 
 }
-.donar-cuerpo p {
-  padding: 10px 0px;
-  width: auto;
-  background-color: whitesmoke;
+
+ul.slider li:target {
+    opacity: 1;
 }
-.donar-cuerpo-datos {
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
   text-align: center;
 }
-.donar-footer {
-  border-radius: 0px 0px 6px 6px;
-  background-color: whitesmoke;
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background:var(--gris_3);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
 }

@@ -16,6 +16,7 @@
     --gris_4: #818181;
     --bg-gradient-principal:  radial-gradient(circle at 120.71% 50%, #ddbaff 0, #8f8dff 25%, #425ed4 50%, #003185 75%, #000641 100%);
     --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
+    --bg-pages: linear-gradient(to bottom, var(--gris_3) , var(--gris_4));
 }
 body{
     font-size: var(--font);
@@ -122,9 +123,9 @@ body{
     border-radius: 1em 20em; /* Borde del boton */
     letter-spacing: 1px; /* Espacio entre letras */
     background-image: var(--bg-gradient);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+    box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.30);
     padding: .5em 1em; /*Relleno del boton */
     position: fixed;
     bottom: 40px;
