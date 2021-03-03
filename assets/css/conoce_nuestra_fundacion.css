@@ -1,12 +1,12 @@
 @import url(style.css);
-@import url(estilos.css);
-.jumbotron-fluid {
+
+.jumbotron{
   background: var(--bg-pages);
   color: white;
   padding: 2em;
 }
 
-.jumbotron-fluid .display-4 {
+.jumbotron .display-4 {
   margin-top: 2em;
   text-align: center; 
   color: var(--naranja);
