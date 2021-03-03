@@ -52,13 +52,14 @@
   #container-historia .overlay h2{
       font-size: 1.5em;
       text-transform: uppercase;
+      margin-top: 70px;
   }
   #container-historia .overlay .container,
   #container-historia .overlay .row {
     height: 100%;
   }
   .container-historia .frase-historia{
-  margin-top: 6px;
+  margin-top: 20px;
   font-size: var(--font);
 }
 .container-main-historia{
@@ -109,4 +110,7 @@
         text-align: justify;
         margin: 40px;
         line-height: 2.0;
+    }
+    .row{
+        --bs-gutter-x: 0rem;
     }
