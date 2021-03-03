@@ -55,18 +55,38 @@ body{
 }
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
-    /* background-color: rgba(255, 0, 0, 0.344); */
-    width: auto;
-    margin-left: 2vh;
-    padding: 0;
+    /* border: 1px solid indigo; */
+    background-image: url(/assets/logo/2persona-icon-gristransparent.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 190px;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
-.logo img{
+.logo-3colores {
+    /* background-color: rgba(255, 0, 0, 0.344); */
+    
+}
+.logo-3colores img {
+    margin: 0;
+    width: 60px;
+}
+
+
+
+/* .logo img{
     width: 60px;
     height: auto;
     margin-top: auto;
-    /* margin-left: ; */
+} */
 
-}
+
+
+
 .contenedor-nav{
     margin-bottom: 2em;
 }
