@@ -1,9 +1,15 @@
 @import url(style.css);
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
 
 .jumbotron{
   background: var(--bg-pages);
   color: white;
-  padding: 2em;
+  
 }
 
 .jumbotron .display-4 {
@@ -16,68 +22,128 @@
   margin-bottom: 2em;
 }
 
-.container-slide{
-  margin: auto;
-  background-color: white;
-  width: 850px;
-  padding: 20px;
-}
 
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul.slider{
-  position: relative;
+.slider {
   width: 800px;
-  height: 300px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 1em;
+  
 }
 
-ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background:#fff;
+.slides {
+  display: flex; 
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: var(--gris_1);
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 800px;
+  height: 400px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
 }
 
-ul.slider li img{
-  width: 100%;
-  height: 300px;
+
+.slider img {
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-ul.slider li:first-child {
-    opacity: 1; 
-}
-
-ul.slider li:target {
-    opacity: 1;
-}
-
-.menu{
-  text-align: center;
-  margin: 20px;
-}
-
-.menu li{
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a{
-  display: inline-block;
-  color: white;
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
   text-decoration: none;
-  background:var(--gris_3);
-  padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
+
+.donar-ancestro {
+  margin: 10px auto 0px;
+  width: 320px;
+  font-size: 14px;
+}
+.donar-padre {
+  background-color: #818181;
+  border-radius: 6px;
+}
+.donar-cabecera {
+  border-radius: 6px 6px 0px 0px;
+  background-color: #818181;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donar-cabecera button {
+  border-bottom: 0px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.donar-banco-img img {
+  width: 250px;
+}
+.donar-cuerpo {
+  border-radius: 10px 10px 0px 0px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donar-cuerpo p {
+  padding: 10px 0px;
+  width: auto;
+  background-color: whitesmoke;
+}
+.donar-cuerpo-datos {
+  text-align: center;
+}
+.donar-footer {
+  border-radius: 0px 0px 6px 6px;
+  background-color: whitesmoke;
 }

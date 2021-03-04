@@ -1,7 +1,11 @@
+
+
+
 @media screen and (min-width: 1024px){
     .collapse {
         background-color: transparent;
     }
+  
 
 }
 
@@ -42,9 +46,9 @@
         font-size: 25px;
         border-radius: 100%;
       }
+    
    
 }
-
 
 @media screen and (max-width:768px){
     .logo img{
@@ -76,8 +80,9 @@
         border-radius:2em;
         font-size: .8em;
     }
+    
      .hero-container-text span{
-        font-size: 1.1em;
+        font-size: 1.8em;
         color: var(--amarillo);
         font-weight: bold;
     }
@@ -87,14 +92,55 @@
     .container-slide{
         width: 650px;
         padding: 15px;
+        display: flex;
+        overflow-x: auto;
       }
       ul.slider{
         width: 600px;
       }
-      
+      .menu li a{
+          display: none;
+      }
+     
+      .slider {
+        width: 300px;
+        flex-shrink: 0;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+      } 
   
-}    
+} 
+@media screen and (max-width:873px){
+    
+    .jumbotrom{
+        width: 100%;
+        height: 100vh;
+    }
+    .jumbotron .display-4 {
+        margin-top: 3em;
+    }
+    .container-slide{
+        width: 400px;
+        padding: 15px;
+      }
+    ul.slider{
+        width: 350px;
+       
+      }
+    .slider{
+        width: 300px;
+    }
 
+    .slides > div {
+        width: 300px;
+        height: 300px;
+    }
+    .slider > a {
+        display: none;
+    }
+
+} 
 
 @media screen and (max-width: 425px){
     .hero .hero-container-text p{
@@ -168,8 +214,6 @@
         padding: .3em .7em; 
         right: 10px;
     }
-  
-
 }
 
 @media screen and (max-width: 375px){
@@ -203,12 +247,12 @@
         width: 100%;
     }
     .container-slide{
-        width: 250px;
+        width: 300px;
         padding: 20px;
     
       }
       ul.slider{
-        width: 200px;
+        width: 250px;
       
       }
    
@@ -219,4 +263,17 @@
         font-size: 12px;
         border-radius: 100%;
       }
+}
+
+@media screen and (max-width: 320px){
+    .container-slide{
+        width: 250px;
+        padding: 10px;
+    
+      }
+      ul.slider{
+        width: 225px;
+      
+      }
+   
 }

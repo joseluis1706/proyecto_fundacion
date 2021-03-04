@@ -151,10 +151,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
 }
-.container-donar{
-    background-color: #102542;
-    max-height: max-content;
-}
+
 a{
     color:#F7F8E0;
     margin: 10px;
@@ -194,5 +191,5 @@ a{
     text-align: center;
     background: var(--gris_1);
     color: white;
-    padding: 1em; 
+    padding: 1em;
 }
