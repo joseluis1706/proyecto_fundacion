@@ -77,8 +77,11 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 120%;
   height: 100%;
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
 }
 
 .slider > a {
@@ -146,4 +149,24 @@ html, body {
 .donar-footer {
   border-radius: 0px 0px 6px 6px;
   background-color: whitesmoke;
+}
+
+@keyframes cambio{
+  0%{ margin-left: 0%;}
+  10%{margin-left: 0%;}
+
+  15%{margin-left: -110%;}
+  20%{margin-left: -110%;}
+
+  25%{margin-left: -215%;}
+  45%{margin-left: -215%;}
+
+  50%{margin-left: -320%;}
+  70%{margin-left: -320%;}
+
+  75%{margin-left: -425%;}
+  90%{margin-left: -425%;}
+
+  95%{margin-left: -530%;}
+  100%{margin-left: -530%;}
 }
