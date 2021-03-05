@@ -32,7 +32,7 @@ body{
     height: 4em;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 10;
     margin-bottom: 2em;
     background-color:rgba(255, 255, 255, 0.596);
     box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
@@ -60,10 +60,7 @@ body{
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
     /* border: 1px solid indigo; */
-    background-image: url(/assets/logo/2persona-icon-gristransparent.svg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 190px;
+    
     height: 100%;
     width: 200px;
     display: flex;
@@ -230,8 +227,4 @@ a{
 .sticky{
     background-color: white;
     
-}
-.sticky .logo img{
-    width: 60px;
-    height: auto;
 }

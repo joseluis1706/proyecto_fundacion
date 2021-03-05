@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     
         <!-- ENLACE A LAS HOJAS DE ESTILO CSS -->
-        <link rel="stylesheet" href="assets/css/estilos.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/eventos.css">
     </head>
@@ -29,50 +28,52 @@
     <body>
     <!----------------BARRA DE NAVEGACIÓN--------------------------------------------------------->
     
-        <nav id="header" class="navbar navbar-expand-lg navbar-light nav-lm">
-          <div class="container-fluid logo">
-            <a class="navbar-brand logo-contenedor" href="#"><img src="assets/logo/FV-logo-3colores.svg" alt="logo de la fundacion funcovive"></a>
+    <nav id="header" class="navbar navbar-expand-lg navbar-light nav-lm">
+      <div class="container-fluid logo">
     
+        <div class="logo-contenedor">
+          <a class="navbar-brand logo-3colores" href="index.html"><img src="assets/logo/FV-logo-3colores.svg" alt="logo de la fundacion funcovive"></a>
+        </div>
     
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse menu-lm " id="navbarScroll">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                  <a class="nav-link active items" aria-current="page" href="index.html"><span class="iten-menu">Home</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false"><span class="iten-menu">Nuesta Fundación</span></a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item items" href="historia.html">Historia</a></li>
-                    <li><a class="dropdown-item items" href="#">Misión</a></li>
-                    <li><a class="dropdown-item items" href="#">Visión</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle items" href="#" id="navbarScrollingDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false"><span class="iten-menu">Nuestra Familia</span></a>
-                  <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item items" href="nuestra_fundacion.html#voluntarios">Voluntarios</a></li>
-                    <li><a class="dropdown-item items" href="nuestra_fundacion.html#nuestros-niños">Nuestros niños</a></li>
-                    <li><a class="dropdown-item items" href="#">Benefactores</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item items">
-                  <a class="nav-link items" href="#"><span class="iten-menu">Entérate</span></a>
-                </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu-lm " id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active items" aria-current="page" href="index.html"><span class="iten-menu">Home</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"><span class="iten-menu">Nuesta Fundación</span></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item items" href="historia.html">Historia</a></li>
+                <li><a class="dropdown-item items" href="historia.html#mision">Misión</a></li>
+                <li><a class="dropdown-item items" href="historia.html#vision">Visión</a></li>
               </ul>
-              <div class="redes">
-                <a href="https://www.facebook.com/460730920784601/posts/1572056039652078/" target="blank"><i
-                    class="facebook fab fa-facebook"></i></a>
-                <a href="https://wa.link/3yny2t" target="blank"><i class="whatsapp fab fa-whatsapp"></i></a>
-              </div>
-            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle items" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"><span class="iten-menu">Nuestra Familia</span></a>
+              <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item items" href="nuestra_fundacion.html#voluntarios">Voluntarios</a></li>
+                <li><a class="dropdown-item items" href="nuestra_fundacion.html#nuestros-niños">Nuestros niños</a></li>
+                <li><a class="dropdown-item items" href="#benefactores">Benefactores</a></li>
+              </ul>
+            </li>
+            <li class="nav-item items">
+              <a class="nav-link items" href="#"><span class="iten-menu">Entérate</span></a>
+            </li>
+          </ul>
+          <div class="redes">
+            <a href="https://www.facebook.com/460730920784601/posts/1572056039652078/" target="blank"><i
+                class="facebook fab fa-facebook"></i></a>
+            <a href="https://wa.link/3yny2t" target="blank"><i class="whatsapp fab fa-whatsapp"></i></a>
           </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
     
     <!----------------BOTON PARA DONAR ----------------------------------------------------------->
         <div class="container">
