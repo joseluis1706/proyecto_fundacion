@@ -29,10 +29,10 @@ body{
     height: 4em;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 10;
     margin-bottom: 2em;
-    /* background-color:rgba(255, 255, 255, 0.596); */
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.596);
+    /* background-color: white; */
     box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
@@ -192,4 +192,15 @@ a{
     background: var(--gris_1);
     color: white;
     padding: 1em;
+}
+
+/* SCROLL */
+
+.sticky{
+    background-color: white;
+    
+}
+.sticky .logo img{
+    width: 60px;
+    height: auto;
 }
