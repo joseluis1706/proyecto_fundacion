@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ------------------------------------------------------ */
+/*    PALETA DE COLORES    */
+/* ------------------------------------------------------ */
 :root{
-    --font:1.25em;
     --azul:#246C85;
     --verde: #3BD67E;
     --amarillo: #E3C453;
@@ -18,10 +20,39 @@
     --bg-gradient:linear-gradient(270deg, #fff366 0, #ffe052 16.67%, #ffc736 33.33%, #f3a900 50%, #e48a00 66.67%, #da7000 83.33%, #d65a00 100%);
     --bg-pages: linear-gradient(to bottom, var(--gris_3) , var(--gris_4));
 }
+:root {
+    /* -------------------------------------------------- */
+    /*  USAR H2 PARA LOS TITULOS PRINCIPALES */
+    /* -------------------------------------------------- */
+    --titulo-font: 'Montserrat', sans-serif;
+    --titulo-size: 60px;
+    /* -------------------------------------------------- */
+    /*  USAR H3 PARA LOS SUBTITULOS  */
+    /* -------------------------------------------------- */
+    --subtitulo-font: 'Lato', sans-serif;
+    --subtitulo-size: 30px;
+    /* -------------------------------------------------- */
+    /*  usar "p" para los parrafos */
+    /*  --------------------------------------------------*/
+    --parrafo-font: 'Lato', sans-serif;
+    --parrafo-size:14px;
+}
 body{
-    font-size: var(--font);
+    font-family: var(--parrafo-font);
+    font-size: var(--parrafo-size);
+}
+h2 {
+    font-family: var(--titulo-font);
+    font-size: var(--titulo-size);
+}
+h3 {
+    font-family: var(--subtitulo-font);
+    font-size: var(--subtitulo-size);
 }
 
+/* --------------------------------------------------------- */
+/*    BARRA DE NAVEGACION */
+/* --------------------------------------------------------- */
 .nav-item  span:hover{
     color: white;
 }
@@ -88,7 +119,6 @@ body{
 .contenedor-nav{
     margin-bottom: 2em;
 }
-
 .redes{
     display: flex;
     margin-right: 3em;   
@@ -98,7 +128,6 @@ body{
     color: white;
     font-size: 1.2em;
 }
-
 .redes a:hover{
     color: white;
 }
@@ -130,7 +159,9 @@ body{
     -moz-box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.35); ;
 }
 
- /****Seccion de Boton Donar****/
+/* --------------------------------------------- -------------- */
+/*    BOTON DONAR    */
+/* ------------------------------------------------------------ */
 .btn-flotante{
     font-size: 1em; 
     text-transform: uppercase; 
@@ -168,14 +199,13 @@ body{
     display: flex;
     flex-flow: column nowrap;
 }
-
 a{
     color:#F7F8E0;
     margin: 10px;
 }
-/*  ------------------------------------------ */
+/*  ----------------------------------------------------- */
 /*    MODAL del BOTON DONAR */
-/* ------------------------------------------- */
+/* ------------------------------------------------------ */
 .donar-ancestro {
     margin: 10px auto 0px;
     width: 320px;
@@ -231,8 +261,9 @@ a{
     padding: 1em;
 }
 
+/* ------------------------------------------------------ */
 /* SCROLL */
-
+/* ------------------------------------------------------ */
 .sticky{
     background-color: white;
     
