@@ -1,17 +1,23 @@
-
-
-
+/* ---------------------------------------------------- */
+/*   MONITOR  PC - TV o SUPERIOR */
+/* ---------------------------------------------------- */
 @media screen and (min-width: 1024px){
     .collapse {
         background-color: transparent;
     }
-  
-
+    .hero {
+        height: 100vmin;
+    }
 }
 
+/* ----------------------------------------------------- */
+/*   NOTEBOOK o SIMILARES   */
+/* ---------------------------------------------------- */
 
 @media screen and (max-width: 1024px){
-
+    .hero {
+        height: 100vmin;
+    }
     .redes a{
         font-size: 1em;
     }
@@ -56,7 +62,11 @@
    
 }
 
+/* ------------------------------------------------------- */
+/*    TABLET    */
+/* ------------------------------------------------------- */
 @media screen and (max-width:768px){
+
     .logo img{
         width: 95px;
         height: 55px;
@@ -82,15 +92,15 @@
     } */
     
     .hero .hero-container-text a{
-        width: 50%;
+        width: 100%;
         border-radius:2em;
         font-size: .8em;
     }
-    
-    .hero-container-text span{
-        font-size: 1.4em;
-        color: var(--amarillo);
-        font-weight: bold;
+    .hero-container-text h2{
+        font-size: 2rem;
+    }
+    .hero-container-text h3{
+        font-size: 1.5rem;
     }
     .jumbotrom{
         width: 100%;
@@ -120,6 +130,10 @@
         }
   
 } 
+
+/* ------------------------------------------------------- */
+/* ESTO TENDRIA QUE IR ANTES QUE 768PX */
+/* ------------------------------------------------------- */
 @media screen and (max-width:873px){
     
     .jumbotrom{
@@ -154,16 +168,21 @@
 
 } 
 
+/* ------------------------------------------------------- */
+/*     CELULAR en HORIZONTAL   */
+/* ------------------------------------------------------- */
 @media screen and (max-width: 425px){
-    .hero .hero-container-text{
-        width: 90%;
+    .hero {
+        height: 100vmax;
     }
-
-    .hero .hero-container-text p{
+    .hero .hero-container-text{
+        width: 0%;
+    }
+    /* .hero .hero-container-text p{
         width: 100vw;
         color: white;
         font-size: 1em;
-    }
+    } */
     .hero .hero-container-text a{
         width: 100%;
         padding: 0.30em;
@@ -235,6 +254,9 @@
         }
 }
 
+/* ------------------------------------------------------- */
+/*   CELULAR VERTICAL   */
+/* ------------------------------------------------------- */
 @media screen and (max-width: 375px){
     .hero .hero-container-text {
         width: 90%;
@@ -288,6 +310,9 @@
       }
 }
 
+/* -------------------------------------------------------- */
+/*    CELULAR PEQUEÑO    */
+/* -------------------------------------------------------- */
 @media screen and (max-width: 320px){
     .container-slide{
         width: 250px;
