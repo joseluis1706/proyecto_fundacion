@@ -135,6 +135,11 @@
     .logo-contenedor{
         background-position: 4px 0px;
         }
+    .slider__btn{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
 
 } 
 
