@@ -58,8 +58,7 @@
       .logo-contenedor{
         background-position: 26px 7px;
         background-size: 90px;
-        }
-   
+    }
 }
 
 /* ------------------------------------------------------- */
@@ -85,11 +84,11 @@
     .redes a{
         font-size: .8em;
     }
-    /* .btn-flotante{
+    .btn-flotante{
         font-size: .8em; 
         padding: .5em .8em; 
         right: 10px;
-    } */
+    }
     
     .hero .hero-container-text a{
         width: 100%;
@@ -105,26 +104,11 @@
     .jumbotrom{
         width: 100%;
     }
-    .container-slide{
-        width: 650px;
-        padding: 15px;
-        display: flex;
-        overflow-x: auto;
-    }
-    ul.slider{
-        width: 600px;
-      }
+    
       .menu li a{
           display: none;
       }
      
-      .slider {
-        width: 300px;
-        flex-shrink: 0;
-        height: 100%;
-        -webkit-overflow-scrolling: touch;
-        scroll-snap-type: x mandatory;
-      } 
       .logo-contenedor{
         background-position: 4px 0px;
         }
@@ -147,21 +131,7 @@
         width: 400px;
         padding: 15px;
       }
-    ul.slider{
-        width: 350px;
-       
-      }
-    .slider{
-        width: 300px;
-    }
 
-    .slides > div {
-        width: 300px;
-        height: 300px;
-    }
-    .slider > a {
-        display: none;
-    }
     .logo-contenedor{
         background-position: 4px 0px;
         }
@@ -230,25 +200,19 @@
     .jumbotrom{
         width: 100%;
     }
-    .container-slide{
-        width: 350px;
-        padding: 20px;
-      }
-      ul.slider{
-        width: 300px;
-      }
-      .menu li a{
-        padding: 5px;
-        width: 4px;
-        height: 4px;
-        font-size: 12px;
-        border-radius: 100%;
-      }
-      /* .btn-flotante{
-        font-size: .7em;
-        padding: .3em .7em; 
-        right: 10px;
-    } */
+    
+    .menu li a{
+    padding: 5px;
+    width: 4px;
+    height: 4px;
+    font-size: 12px;
+    border-radius: 100%;
+    }
+    .btn-flotante{
+    font-size: .7em;
+    padding: .3em .7em; 
+    right: 10px;
+    }
     .logo-contenedor{
         background-position: -9px 6px;
         }
@@ -280,24 +244,14 @@
         50% { transform: scale(1.1); }
         to { transform: none; }
     }
-    /* .btn-flotante{
+    .btn-flotante{
         font-size: .7em;
         padding: .3em .7em; 
         right: 10px;
-    } */
+    }
     .jumbotrom{
         width: 100%;
     }
-    .container-slide{
-        width: 300px;
-        padding: 20px;
-    
-      }
-      ul.slider{
-        width: 250px;
-      
-      }
-   
       .menu li a{
         padding: 5px;
         width: 4px;
@@ -308,20 +262,14 @@
       .logo-contenedor{
       background-position: -9px 6px;
       }
+
 }
 
 /* -------------------------------------------------------- */
 /*    CELULAR PEQUEÑO    */
 /* -------------------------------------------------------- */
 @media screen and (max-width: 320px){
-    .container-slide{
-        width: 250px;
-        padding: 10px;
     
-      }
-      ul.slider{
-        width: 225px;
-      }
       .logo-contenedor{
         background-position: -9px 6px;
         }
