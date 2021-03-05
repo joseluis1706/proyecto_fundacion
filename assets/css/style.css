@@ -157,35 +157,56 @@ a{
     margin: 10px;
 }
 
+/*  ------------------------------------------ */
+/*    MODAL del BOTON DONAR */
+/* ------------------------------------------- */
 .donar-ancestro {
-    margin-top: 100px;
-}
-.donar-padre {
-    background-color: whitesmoke;
-}
-.donar-cuerpo {
+    margin: 10px auto 0px;
+    width: 320px;
+    font-size: 14px;
+  }
+  .donar-padre {
+    background-color: #818181;
+    border-radius: 6px;
+  }
+  .donar-cabecera {
+    border-radius: 6px 6px 0px 0px;
+    background-color: #818181;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-.donar-cuerpo p {
+  }
+  .donar-cabecera button {
+    border-bottom: 0px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .donar-banco-img img {
+    width: 250px;
+  }
+  .donar-cuerpo {
+    border-radius: 10px 10px 0px 0px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .donar-cuerpo p {
     padding: 10px 0px;
     width: auto;
     background-color: whitesmoke;
-}
-.donar-cuerpo-logo {
-    width: 100%;
-    margin: 0px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.donar-cuerpo-logo img {
-    width: 70%;
-}
+  }
+  .donar-cuerpo-datos {
+    text-align: center;
+  }
+  .donar-footer {
+    border-radius: 0px 0px 6px 6px;
+    background-color: whitesmoke;
+  }
 .container-footer {
     /* margin-top: 20vh; */
     text-align: center;
