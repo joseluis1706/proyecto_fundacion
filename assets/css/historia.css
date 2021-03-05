@@ -61,6 +61,12 @@
   .container-historia .frase-historia{
   margin-top: 20px;
   font-size: var(--font);
+  line-height: 1.5;
+}
+.container-historia .frase-historia span{
+    font-size: 1.5em;
+    color: var(--naranja);
+    font-weight: bold;
 }
 .container-main-historia{
     display: flex;
@@ -76,6 +82,9 @@
     color: #fff;
     margin-top: 60px;
     line-height: 2.0em;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+    padding: 20px;
  }
  .container-main-historia .main-vision{
     width: 40vw;
@@ -83,6 +92,9 @@
     color: #fff;
     margin-top: 60px;
     line-height: 2.0em;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+    padding: 20px;
  }
    .container-main-historia h2{
         text-transform: uppercase;

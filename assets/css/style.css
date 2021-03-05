@@ -60,7 +60,10 @@ body{
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
     /* border: 1px solid indigo; */
-    
+    background-image: url(/assets/logo/image2logo.svg);
+    background-repeat: no-repeat;
+    background-position: -3px 9px;
+    background-size: 65px;
     height: 100%;
     width: 200px;
     display: flex;
@@ -72,9 +75,15 @@ body{
     background-color: rgba(255, 0, 0, 0.344);
     
 } */
-.logo-3colores img {
+/* .logo-3colores img {
     margin: 0;
     width: 60px;
+} */
+.logo img{
+    width: 60px;
+    height: auto;
+    margin-top: auto;
+    z-index: -1;
 }
 .contenedor-nav{
     margin-bottom: 2em;

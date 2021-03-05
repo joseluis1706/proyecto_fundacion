@@ -49,7 +49,10 @@
       .navbar-collapse{
           background-color: white;
       }
-    
+      .logo-contenedor{
+        background-position: 26px 7px;
+        background-size: 90px;
+        }
    
 }
 
@@ -72,11 +75,11 @@
     .redes a{
         font-size: .8em;
     }
-    .btn-flotante{
+    /* .btn-flotante{
         font-size: .8em; 
         padding: .5em .8em; 
         right: 10px;
-    }
+    } */
     
     .hero .hero-container-text a{
         width: 50%;
@@ -112,6 +115,9 @@
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
       } 
+      .logo-contenedor{
+        background-position: 4px 0px;
+        }
   
 } 
 @media screen and (max-width:873px){
@@ -142,6 +148,9 @@
     .slider > a {
         display: none;
     }
+    .logo-contenedor{
+        background-position: 4px 0px;
+        }
 
 } 
 
@@ -216,11 +225,14 @@
         font-size: 12px;
         border-radius: 100%;
       }
-      .btn-flotante{
+      /* .btn-flotante{
         font-size: .7em;
         padding: .3em .7em; 
         right: 10px;
-    }
+    } */
+    .logo-contenedor{
+        background-position: -9px 6px;
+        }
 }
 
 @media screen and (max-width: 375px){
@@ -246,11 +258,11 @@
         50% { transform: scale(1.1); }
         to { transform: none; }
     }
-    .btn-flotante{
+    /* .btn-flotante{
         font-size: .7em;
         padding: .3em .7em; 
         right: 10px;
-    }
+    } */
     .jumbotrom{
         width: 100%;
     }
@@ -271,6 +283,9 @@
         font-size: 12px;
         border-radius: 100%;
       }
+      .logo-contenedor{
+      background-position: -9px 6px;
+      }
 }
 
 @media screen and (max-width: 320px){
@@ -281,7 +296,9 @@
       }
       ul.slider{
         width: 225px;
-      
       }
+      .logo-contenedor{
+        background-position: -9px 6px;
+        }
    
 }
