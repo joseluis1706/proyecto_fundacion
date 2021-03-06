@@ -59,6 +59,11 @@
         background-position: 26px 7px;
         background-size: 90px;
     }
+    .slider__btn{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
 }
 
 /* ------------------------------------------------------- */
@@ -136,9 +141,9 @@
         background-position: 4px 0px;
         }
     .slider__btn{
-        width: 20px;
-        height: 20px;
-        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
     }
 
 } 
@@ -268,9 +273,9 @@
       background-position: -9px 6px;
       }
       .slider__btn{
-        width: 20px;
-        height: 20px;
-        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
     }
 
 
@@ -285,9 +290,9 @@
         background-position: -9px 6px;
         }
         .slider__btn{
-            width: 20px;
-            height: 20px;
-            font-size: 12px;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
         }
     
    
