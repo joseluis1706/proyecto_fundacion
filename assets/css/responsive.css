@@ -245,6 +245,12 @@
       .logo-contenedor{
       background-position: -9px 6px;
       }
+      .slider__btn{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+
 
 }
 
@@ -253,5 +259,11 @@
       .logo-contenedor{
         background-position: -9px 6px;
         }
+        .slider__btn{
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+        }
+    
    
 }
