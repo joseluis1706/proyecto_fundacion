@@ -91,7 +91,7 @@ h3 {
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
     /* border: 1px solid indigo; */
-    background-image: url(/assets/logo/image2logo.svg);
+    background-image: url(../logo/image2logo.svg);
     background-repeat: no-repeat;
     background-position: -3px 9px;
     background-size: 65px;
