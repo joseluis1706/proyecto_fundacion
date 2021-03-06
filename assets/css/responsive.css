@@ -5,8 +5,6 @@
     .collapse {
         background-color: transparent;
     }
-  
-
 }
 
 
@@ -122,9 +120,9 @@
         background-position: 4px 0px;
         }
     .slider__btn{
-        width: 20px;
-        height: 20px;
-        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
     }
 
 } 
@@ -246,9 +244,9 @@
       background-position: -9px 6px;
       }
       .slider__btn{
-        width: 20px;
-        height: 20px;
-        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
     }
 
 
@@ -260,8 +258,8 @@
         background-position: -9px 6px;
         }
         .slider__btn{
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             font-size: 12px;
         }
     
