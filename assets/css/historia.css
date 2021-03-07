@@ -18,27 +18,10 @@
     filter: grayscale(70%);
 }
 .carousel-inner p{
-    font-size: .9em;
     color: #fff;
     text-align: justify;
     line-height: 1.8;
     padding: 30px;
-}
-.container-historia a{
-    color: #fff;
-    position: fixed;
-    z-index: 99;
-    margin: 85px;
-    margin-left: 30px;
-}
-.container-historia .title{
-    color: var(--bl);
-    margin-top: -28px;   
-    margin-bottom: -161px;
-}
-.card{
-    display: block;
-    margin: auto;
 }
 #container-historia .overlay {
     position: absolute;
@@ -50,7 +33,7 @@
     color: white;
   }
   #container-historia .overlay h2{
-      font-size: 1.5em;
+      /* font-size: 1.5em; */
       text-transform: uppercase;
       margin-top: 70px;
   }
@@ -60,11 +43,11 @@
   }
   .container-historia .frase-historia{
   margin-top: 20px;
-  font-size: var(--font);
+  /* font-size: var(--font); */
   line-height: 1.5;
 }
 .container-historia .frase-historia span{
-    font-size: 1.5em;
+    font-size: var(---subtitulo-size);
     color: var(--naranja);
     font-weight: bold;
 }
@@ -96,14 +79,14 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
     padding: 20px;
  }
-   .container-main-historia h2{
+   .container-main-historia h3{
         text-transform: uppercase;
         text-align: center;
-        font-size: 1.5em;
+        /* font-size: 1.5em; */
     }
     .container-main-historia p{
         text-align: justify;
-        font-size: .8em;
+        /* font-size: .8em; */
     }
     .container-main-objeto-social{
         color: #fff;
@@ -122,6 +105,7 @@
         text-align: justify;
         margin: 40px;
         line-height: 2.0;
+        font-size: var(--parrafo-size);
     }
     .row{
         --bs-gutter-x: 0rem;
