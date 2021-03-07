@@ -75,7 +75,7 @@ h3 {
     width: 60%;
 }
 .collapse {
-    background-color: rgba(255, 255, 255, 0.692);
+    background-color: white;
 }
 .items:hover{
     color: white;
