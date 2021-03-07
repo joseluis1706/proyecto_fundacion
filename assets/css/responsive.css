@@ -67,6 +67,37 @@
 }
 
 /* ------------------------------------------------------- */
+/* ESTO TENDRIA QUE IR ANTES QUE 768PX */
+/* ------------------------------------------------------- */
+@media screen and (max-width:873px){
+    
+    .jumbotrom{
+        width: 100%;
+        height: 100vh;
+    }
+    .jumbotron .display-4 {
+        margin-top: 3em;
+    }
+    .container-slide{
+        width: 400px;
+        padding: 15px;
+      }
+
+    .logo-contenedor{
+        background-position: 4px 0px;
+        }
+    .slider__btn{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .family-cards .card{
+        width: 45%;
+    }
+
+} 
+
+/* ------------------------------------------------------- */
 /*    TABLET    */
 /* ------------------------------------------------------- */
 @media screen and (max-width:768px){
@@ -117,36 +148,27 @@
       .logo-contenedor{
         background-position: 4px 0px;
         }
+    .benefactores .benefactores-container{
+        flex-direction: column;
+    }
+    .benefactores .benefactores-container img {
+        width: 100%;
+        height: 200px;
+    }
+    .benefactores .benefactores-container div{
+        width: 95%;
+        padding: 0;
+        text-align: justify;
+    }
+    .benefactores .benefactores-container div h3{
+        margin: 10px auto;
+        text-align: justify;
+        font-size: 2rem;
+        text-align: center;
+    }
   
 } 
 
-/* ------------------------------------------------------- */
-/* ESTO TENDRIA QUE IR ANTES QUE 768PX */
-/* ------------------------------------------------------- */
-@media screen and (max-width:873px){
-    
-    .jumbotrom{
-        width: 100%;
-        height: 100vh;
-    }
-    .jumbotron .display-4 {
-        margin-top: 3em;
-    }
-    .container-slide{
-        width: 400px;
-        padding: 15px;
-      }
-
-    .logo-contenedor{
-        background-position: 4px 0px;
-        }
-    .slider__btn{
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-    }
-
-} 
 
 /* ------------------------------------------------------- */
 /*     CELULAR en HORIZONTAL   */
@@ -226,6 +248,9 @@
     .logo-contenedor{
         background-position: -9px 6px;
         }
+    .family-cards .card{
+        width: 80%;
+    }
 }
 
 /* ------------------------------------------------------- */

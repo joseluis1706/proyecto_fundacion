@@ -18,7 +18,7 @@ main .family::before{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.575);
+    background-color: rgba(255, 255, 255, 0.664);
     z-index: 1;
 }
 .content-text{
@@ -37,15 +37,66 @@ main .family::before{
 }
 .family h1{
     color: var(--naranja);
-    font-size: calc((var(--font))*2);
+    font-size: 3rem;
+    text-shadow: 0 0 5px white;
 }
 .family p{
     color: black;
     margin-top: 20px;
+    font-size: 1rem;
 }
+
 .title-cards{
-    font-size: 2em;
     margin: 30px auto;
     padding-top: 20px;
     color: var(--naranja);
+}
+.family-cards .card{
+    width: 30%;
+    padding: 0;
+}
+#voluntarios{
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--naranja);
+    font-weight: bold;
+    margin-top: 40px;
+}
+.family-cards a{
+    background-color: var(--azul);
+}
+/* Benefactores */
+.benefactores{
+    padding: 10px;
+    background: var(--bg-gradient-principal);
+} 
+.benefactores .benefactores-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    
+    border: 1px solid rgba(204, 198, 198, 0.774);
+}
+.benefactores .benefactores-container img{
+    width: 40%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.benefactores .benefactores-container div{
+    width: 60%;
+    padding: 20px;
+}
+
+.benefactores .benefactores-container div h3{
+    color: var(--azul);
+    text-align: left;
 }
