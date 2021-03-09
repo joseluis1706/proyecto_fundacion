@@ -54,6 +54,7 @@ main .family::before{
 .family-cards .card{
     width: 30%;
     padding: 0;
+    margin: 10px !important;
 }
 #voluntarios{
     margin-bottom: 50px;
@@ -99,4 +100,52 @@ h3{
 .benefactores .benefactores-container div h3{
     color: var(--azul);
     text-align: left;
+}
+/* Vos tambien podes ayudar */
+.ayuda{
+    width: 100%;
+    padding: 10px;
+}
+.ayuda h3{
+    color: var(--azul);
+}
+.ayuda .ayuda-container-article{
+    display: flex;
+    flex-flow: row wrap;
+}
+.ayuda article{
+    width: 45%;
+    margin: 10px;
+    padding: 40px 20px;
+    background-color: var(--azul);
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.ayuda .ayuda-container-article h4{
+    text-align: center;
+    color: var(--verde);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.ayuda .ayuda-container-article p{
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+    margin: 20px auto;
+}
+.ayuda .ayuda-container-article button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--verde);
+    margin: auto;
+}
+.ayuda .ayuda-container-article button:focus{
+    border: none;
+    outline: none;
+    padding: 8px 18px;
 }
