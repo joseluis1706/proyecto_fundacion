@@ -24,12 +24,6 @@
     .redes{
         margin-right: .5em;   
     }
-    .logo img{
-        width: 100px;
-        height: 70px;
-        margin-top: -5px;
-        margin-left: 1em;
-    } 
     .nav-lm{
         height: 4.5em;
     }
@@ -55,14 +49,16 @@
       .navbar-collapse{
         /* background-color: white; */
       }
-      .logo-contenedor{
-        background-position: 26px 7px;
-        background-size: 90px;
-    }
     .slider__btn{
         width: 40px;
         height: 40px;
         font-size: 25px;
+    }
+}
+@media screen and (max-width: 991px){
+    .collapse{
+        background-color: white;
+        padding: 10px 10px;
     }
 }
 
@@ -81,11 +77,7 @@
     .container-slide{
         width: 400px;
         padding: 15px;
-      }
-
-    .logo-contenedor{
-        background-position: 4px 0px;
-        }
+    }
     .slider__btn{
         width: 30px;
         height: 30px;
@@ -102,12 +94,6 @@
 /* ------------------------------------------------------- */
 @media screen and (max-width:768px){
 
-    .logo img{
-        width: 95px;
-        height: 55px;
-        margin-top: -5px;
-        margin-left: 0;
-    } 
     .nav-lm{
         height: 4em;
     }
@@ -141,13 +127,9 @@
         width: 100%;
     }
     
-      .menu li a{
-          display: none;
-      }
-     
-      .logo-contenedor{
-        background-position: 4px 0px;
-        }
+    .menu li a{
+        display: none;
+    }
     .benefactores .benefactores-container{
         flex-direction: column;
     }
@@ -166,7 +148,11 @@
         font-size: 2rem;
         text-align: center;
     }
-  
+    .ayuda article{
+        width: 80%;
+        margin: 10px auto;
+    }
+
 } 
 
 
@@ -178,7 +164,7 @@
         height: 100vmax;
     }
     .hero .hero-container-text{
-        width: 0%;
+        width: 80%;
     }
     /* .hero .hero-container-text p{
         width: 100vw;
@@ -196,11 +182,6 @@
         color: var(--amarillo);
         font-weight: bold;
     }
-    .logo img{
-        width: 70px;
-        height: 45px;
-        margin-top: 5px;
-    } 
     .nav-lm{
         height: 4em;
     }
@@ -245,9 +226,6 @@
     padding: .3em .7em; 
     right: 10px;
     }
-    .logo-contenedor{
-        background-position: -9px 6px;
-        }
     .family-cards .card{
         width: 80%;
     }
@@ -293,11 +271,8 @@
         height: 4px;
         font-size: 12px;
         border-radius: 100%;
-      }
-      .logo-contenedor{
-      background-position: -9px 6px;
-      }
-      .slider__btn{
+    }
+    .slider__btn{
         width: 30px;
         height: 30px;
         font-size: 20px;
@@ -310,10 +285,6 @@
 /*    CELULAR PEQUEÑO    */
 /* -------------------------------------------------------- */
 @media screen and (max-width: 320px){
-    
-      .logo-contenedor{
-        background-position: -9px 6px;
-        }
         .slider__btn{
             width: 30px;
             height: 30px;

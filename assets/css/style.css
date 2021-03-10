@@ -66,13 +66,11 @@ h3 {
     box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+    padding: 0;
 }
 .menu-lm{
     background-color:transparent;
     width: 60%;
-}
-.collapse {
-    background-color: white;
 }
 .items:hover{
     color: white;
@@ -89,15 +87,17 @@ h3 {
 .logo-contenedor {
     /* border: 1px solid indigo; */
     background-image: url(../logo/image2logo.svg);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: -3px 9px;
+    background-size: cover;
     background-size: 65px;
     height: 100%;
-    width: 200px;
+    width: 80px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding: 5px;
 }
 /* .logo-3colores {
     background-color: rgba(255, 0, 0, 0.344);
@@ -107,10 +107,16 @@ h3 {
     margin: 0;
     width: 60px;
 } */
+.logo{
+    height: 100%;
+}
+.logo a{
+    margin: 0;
+}
 .logo img{
-    width: 60px;
-    height: auto;
-    margin-top: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: -1;
 }
 .contenedor-nav{
@@ -124,6 +130,7 @@ h3 {
     text-decoration: none;
     color: white;
     font-size: 1.2em;
+    margin: 0 5px;
 }
 .redes a:hover{
     color: white;
