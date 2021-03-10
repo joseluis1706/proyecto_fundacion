@@ -96,9 +96,19 @@
         padding-top: .6em;
         padding-bottom: .6em;
         margin-top: 0;
-        height: auto;
     }
-
+    .menu-lm{
+        width: 100vw;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+        height: 7em;
+    }
 } 
 
 /* ------------------------------------------------------- */
@@ -106,15 +116,12 @@
 /* ------------------------------------------------------- */
 @media screen and (max-width:768px){
 
-    .nav-lm{
-        height: 4em;
-    }
     
     .navbar{
         padding-top: .6em;
         padding-bottom: .6em;
         margin-top: 0;
-        height: auto;
+        height: 7em;
     }
     .redes a{
         font-size: .8em;
@@ -198,11 +205,11 @@
     .nav-lm{
         height: 4em;
     }
-    .navbar{
+      .navbar{
         padding-top: .6em;
         padding-bottom: .6em;
         margin-top: 0;
-        height: auto;
+        height: 7em;
     }
     .hero .hero-container-text a:hover{
         transform: scale(1.2);
@@ -291,7 +298,9 @@
         height: 30px;
         font-size: 20px;
     }
-
+    .menu-lm{
+        width: 100vw;
+    }
 
 }
 
@@ -303,5 +312,8 @@
             width: 30px;
             height: 30px;
             font-size: 20px;
+        }
+        .menu-lm{
+            width: 100vw;
         }
 }

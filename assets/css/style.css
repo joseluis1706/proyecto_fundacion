@@ -58,13 +58,12 @@ h3 {
     color: white;
 }
 .nav-lm{
-    height: 4em;
+    height: 5em;
     position: fixed;
     width: 100vw;
     z-index: 1;
     margin-bottom: 2em;
-    /* background-color:rgba(255, 255, 255, 0.596); */
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.596);
     box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
     -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
@@ -73,9 +72,6 @@ h3 {
     background-color:transparent;
     width: 60%;
     font-size: 1.5em;
-}
-.collapse {
-    background-color: rgba(255, 255, 255, 0.692);
 }
 .nav-link{
    margin:0.05em;
