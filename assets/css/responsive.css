@@ -24,6 +24,12 @@
     .redes{
         margin-right: .5em;   
     }
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+        height: auto;
+    }
     .nav-lm{
         height: 4.5em;
     }
@@ -58,7 +64,7 @@
 @media screen and (max-width: 991px){
     .collapse{
         background-color: white;
-        padding: 10px 10px;
+        /* padding: 10px 10px; */
     }
 }
 
@@ -86,6 +92,12 @@
     .family-cards .card{
         width: 45%;
     }
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+        height: auto;
+    }
 
 } 
 
@@ -99,9 +111,10 @@
     }
     
     .navbar{
-        padding-top: 0em;
-        padding-bottom: 0;
+        padding-top: .6em;
+        padding-bottom: .6em;
         margin-top: 0;
+        height: auto;
     }
     .redes a{
         font-size: .8em;
@@ -127,9 +140,9 @@
         width: 100%;
     }
     
-    .menu li a{
+    /* .menu li a{
         display: none;
-    }
+    } */
     .benefactores .benefactores-container{
         flex-direction: column;
     }
@@ -186,9 +199,10 @@
         height: 4em;
     }
     .navbar{
-        padding-top: 0em;
-        padding-bottom: 0;
+        padding-top: .6em;
+        padding-bottom: .6em;
         margin-top: 0;
+        height: auto;
     }
     .hero .hero-container-text a:hover{
         transform: scale(1.2);
@@ -290,6 +304,4 @@
             height: 30px;
             font-size: 20px;
         }
-    
-   
 }
