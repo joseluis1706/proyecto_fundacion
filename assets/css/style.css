@@ -25,17 +25,14 @@
     /*  USAR H2 PARA LOS TITULOS PRINCIPALES */
     /* -------------------------------------------------- */
     --titulo-font: 'Montserrat', sans-serif;
-    --titulo-size: 60px;
     /* -------------------------------------------------- */
     /*  USAR H3 PARA LOS SUBTITULOS  */
     /* -------------------------------------------------- */
     --subtitulo-font: 'Lato', sans-serif;
-    --subtitulo-size: 30px;
     /* -------------------------------------------------- */
     /*  usar "p" para los parrafos */
     /*  --------------------------------------------------*/
     --parrafo-font: 'Lato', sans-serif;
-    --parrafo-size:14px;
 }
 body{
     font-family: var(--parrafo-font);
