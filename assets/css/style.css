@@ -169,7 +169,7 @@ h3 {
 /*    BOTON DONAR    */
 /* ------------------------------------------------------------ */
 .btn-flotante{
-    font-size: 1em; 
+    font-size: 1.2em; 
     text-transform: uppercase; 
     font-weight: bold; 
     color: white; 
@@ -180,7 +180,7 @@ h3 {
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
     -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
     -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.30);
-    padding: .5em 1em; 
+    padding: 1em 2em; 
     position: fixed;
     bottom: 40px;
     right: 40px;
