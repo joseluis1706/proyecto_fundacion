@@ -8,6 +8,7 @@
     .hero {
         height: 100vmin;
     }
+   
 }
 
 /* ----------------------------------------------------- */
@@ -23,6 +24,12 @@
     }
     .redes{
         margin-right: .5em;   
+    }
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+        height: auto;
     }
     .nav-lm{
         height: 4.5em;
@@ -54,11 +61,12 @@
         height: 40px;
         font-size: 25px;
     }
+ 
 }
 @media screen and (max-width: 991px){
     .collapse{
         background-color: white;
-        padding: 10px 10px;
+        /* padding: 10px 10px; */
     }
 }
 
@@ -86,7 +94,27 @@
     .family-cards .card{
         width: 45%;
     }
-
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+    }
+    .menu-lm{
+        width: 100vw;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
+        margin-top: 0;
+        height: 7em;
+    }
+    .hero .hero-container-text a{
+        padding: 10px;
+        font-size: 1em;
+    }
 } 
 
 /* ------------------------------------------------------- */
@@ -94,21 +122,19 @@
 /* ------------------------------------------------------- */
 @media screen and (max-width:768px){
 
-    .nav-lm{
-        height: 4em;
-    }
     
     .navbar{
-        padding-top: 0em;
-        padding-bottom: 0;
+        padding-top: .6em;
+        padding-bottom: .6em;
         margin-top: 0;
+        height: 7em;
     }
     .redes a{
         font-size: .8em;
     }
     .btn-flotante{
-        font-size: .8em; 
-        padding: .5em .8em; 
+        font-size: 1.1em;
+        padding: .7em .9em; 
         right: 10px;
     }
     
@@ -127,9 +153,9 @@
         width: 100%;
     }
     
-    .menu li a{
+    /* .menu li a{
         display: none;
-    }
+    } */
     .benefactores .benefactores-container{
         flex-direction: column;
     }
@@ -172,10 +198,8 @@
         font-size: 1em;
     } */
     .hero .hero-container-text a{
-        width: 100%;
-        padding: 0.30em;
-        margin-top: 30px;
-        font-size: .8em;
+        padding: 10px;
+        font-size: 1em;
     }
     .hero-container-text span{
         font-size: 1.2em;
@@ -185,10 +209,11 @@
     .nav-lm{
         height: 4em;
     }
-    .navbar{
-        padding-top: 0em;
-        padding-bottom: 0;
+      .navbar{
+        padding-top: .6em;
+        padding-bottom: .6em;
         margin-top: 0;
+        height: 7em;
     }
     .hero .hero-container-text a:hover{
         transform: scale(1.2);
@@ -222,8 +247,8 @@
     border-radius: 100%;
     }
     .btn-flotante{
-    font-size: .7em;
-    padding: .3em .7em; 
+    font-size: 1em;
+    padding: .7em .9em; 
     right: 10px;
     }
     .family-cards .card{
@@ -244,9 +269,8 @@
         font-size: .9em;
     }
     .hero .hero-container-text a{
-        padding: 0.30em;
-        margin-top: 30px;
-        font-size: .8em;
+        padding: 10px;
+        font-size: 1em;
     }
     .hero-container-text span{
         color: var(--amarillo);
@@ -258,8 +282,8 @@
         to { transform: none; }
     }
     .btn-flotante{
-        font-size: .7em;
-        padding: .3em .7em; 
+        font-size: 1em;
+        padding: .7em .9em; 
         right: 10px;
     }
     .jumbotrom{
@@ -277,7 +301,9 @@
         height: 30px;
         font-size: 20px;
     }
-
+    .menu-lm{
+        width: 100vw;
+    }
 
 }
 
@@ -290,6 +316,7 @@
             height: 30px;
             font-size: 20px;
         }
-    
-   
+        .menu-lm{
+            width: 100vw;
+        }
 }
