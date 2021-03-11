@@ -55,6 +55,7 @@ html, body {
 .donar-cuerpo {
   border-radius: 10px 10px 0px 0px;
   background-color: whitesmoke;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
