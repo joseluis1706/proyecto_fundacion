@@ -179,6 +179,7 @@
         margin: 10px auto;
     }
 
+
 } 
 
 
@@ -304,6 +305,38 @@
     .menu-lm{
         width: 100vw;
     }
+
+    /* ---------FOOTER-------------------- */
+    .footer-sup {
+        /* border: 1px solid rgb(25, 0, 255);
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-flow:wrap row;
+        justify-content: space-around;
+        align-items: center; */
+    }
+    .footer-sup .footer-map {
+        /* border: 1px solid red; */
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
