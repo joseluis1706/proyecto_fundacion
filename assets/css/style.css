@@ -40,11 +40,11 @@ body{
 }
 h2 {
     font-family: var(--titulo-font);
-    font-size: var(--titulo-size);
+    /* font-size: var(--titulo-size); */
 }
 h3 {
     font-family: var(--subtitulo-font);
-    font-size: var(--subtitulo-size);
+    /* font-size: var(--subtitulo-size); */
 }
 
 /* --------------------------------------------------------- */
@@ -55,7 +55,7 @@ h3 {
     color: white;
 }
 .nav-lm{
-    height: 5em;
+    height: 5.5em;
     position: fixed;
     width: 100vw;
     z-index: 1;
@@ -92,13 +92,13 @@ h3 {
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
     /* border: 1px solid indigo; */
-    background-image: url(../logo/image2logo.svg);
-    background-position: center;
+    /* background-image: url(../logo/image2logo.svg); */
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 65px;
+    background-size: 65px; */
     height: 100%;
-    width: 80px;
+    width:25%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -117,9 +117,9 @@ h3 {
 .logo img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover;
     z-index: -1;
-    padding: 5px;
+    padding: 5px; */
 }
 .redes{
     display: flex;
@@ -314,8 +314,8 @@ a{
     
     display: flex;
     flex-direction: column;
-    justify-content: ;
-    align-items: ;
+    /* justify-content: ;
+    align-items: ; */
 }
 .footer-logo {
     margin-right: 10px;
