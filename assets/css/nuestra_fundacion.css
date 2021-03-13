@@ -72,7 +72,7 @@ main .family::before{
     margin: 30px auto;
     padding-top: 20px;
     color: var(--naranja);
-    }
+}
 .family-cards .card{
     width: 30%;
     padding: 0;
