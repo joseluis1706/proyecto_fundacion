@@ -89,6 +89,7 @@
     background-color: white;
     /* padding: 10px 10px; */
   }
+}
 
 
 /* ------------------------------------------------------- */
@@ -148,6 +149,7 @@
     padding: 10px;
     font-size: 1em;
   }
+}
 
 /* ------------------------------------------------------- */
 /*    TABLET    */
@@ -181,46 +183,46 @@
     right: 10px;
   }
   
-    .hero .hero-container-text a {
-        width: 100%;
-        border-radius: 2em;
-        font-size: 0.8em;
-    }
-    .hero-container-text h2 {
-        font-size: 2rem;
-    }
-    .hero-container-text h3 {
-        font-size: 1.5rem;
-    }
-    .jumbotrom {
-        width: 100%;
-    }
+  .hero .hero-container-text a {
+      width: 100%;
+      border-radius: 2em;
+      font-size: 0.8em;
+  }
+  .hero-container-text h2 {
+      font-size: 2rem;
+  }
+  .hero-container-text h3 {
+      font-size: 1.5rem;
+  }
+  .jumbotrom {
+      width: 100%;
+  }
 
-    /* .menu li a{
-        display: none;
-    } */
-    .benefactores .benefactores-container {
-        flex-direction: column;
-    }
-    .benefactores .benefactores-container img {
-        width: 100%;
-        height: 200px;
-    }
-    .benefactores .benefactores-container div {
-        width: 95%;
-        padding: 0;
-        text-align: justify;
-    }
-    .benefactores .benefactores-container div h3 {
-        margin: 10px auto;
-        text-align: justify;
-        font-size: 2rem;
-        text-align: center;
-    }
-    .ayuda article {
-        width: 80%;
-        margin: 10px auto;
-    }
+  /* .menu li a{
+      display: none;
+  } */
+  .benefactores .benefactores-container {
+      flex-direction: column;
+  }
+  .benefactores .benefactores-container img {
+      width: 100%;
+      height: 200px;
+  }
+  .benefactores .benefactores-container div {
+      width: 95%;
+      padding: 0;
+      text-align: justify;
+  }
+  .benefactores .benefactores-container div h3 {
+      margin: 10px auto;
+      text-align: justify;
+      font-size: 2rem;
+      text-align: center;
+  }
+  .ayuda article {
+      width: 80%;
+      margin: 10px auto;
+  }
 }
 
 /* ------------------------------------------------------- */
@@ -231,15 +233,18 @@
  .nav-lm{
     height: 3em;
     font-size: .8em;
-}
- .logo-contenedor{
-    width: 38%;
+  }
+  .logo-contenedor{
+    width: 40%;
+  }
+  .logo-contenedor p{
+    font-size: 1.1em;
 }
  .navbar-toggler{
     margin-top: auto;
     font-size: 1.5em;
     margin-right: .5em;
-}
+  }
   .hero {
     height: 100vmax;
   }
@@ -247,14 +252,14 @@
     width: 80%;
   }
 
-    .hero .hero-container-text {
-        width: 80%;
-    }
-    /* .hero .hero-container-text p{
-        width: 100vw;
-        color: white;
-        font-size: 1em;
-    } */
+  .hero .hero-container-text {
+      width: 80%;
+  }
+  /* .hero .hero-container-text p{
+      width: 100vw;
+      color: white;
+      font-size: 1em;
+  } */
 
   .hero .hero-container-text a {
     padding: 10px;
@@ -296,13 +301,13 @@
     width: 100%;
   }
 
-   .menu li a {
-        padding: 5px;
-        width: 4px;
-        height: 4px;
-        font-size: 12px;
-        border-radius: 100%;
-    }
+  .menu li a {
+      padding: 5px;
+      width: 4px;
+      height: 4px;
+      font-size: 12px;
+      border-radius: 100%;
+  }
     .btn-flotante {
         font-size: 1em;
         padding: 0.7em 0.9em;
@@ -341,9 +346,9 @@
 /*   CELULAR VERTICAL   */
 /* ------------------------------------------------------- */
 @media screen and (max-width: 375px) {
-    .hero .hero-container-text {
-        width: 90%;
-    }
+  .hero .hero-container-text {
+      width: 90%;
+  }
 
   .hero .hero-container-text p {
     color: white;
@@ -392,8 +397,13 @@
     width: 100vw;
   }
 
- .logo-contenedor{
+  .logo-contenedor{
     width: 40%;
+  }
+  .logo-contenedor p{
+    font-size: 1.1em;
+}
+}
 
 
 /* -------------------------------------------------------- */
@@ -410,7 +420,10 @@
     width: 100vw;
   }
  .logo-contenedor{
-    width: 42%;
+    width: 48%;
   }
+  .logo-contenedor p{
+    font-size: 1.1em;
+}
 
 }
