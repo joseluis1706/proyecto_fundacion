@@ -333,6 +333,9 @@
     .family .content-text{
         padding-top: 20px;
     }
+    .family .content-text h1{
+      font-size: 2.5rem;
+    }
     .family-cards .card {
         width: 80%;
     }
@@ -455,5 +458,8 @@
   .logo-contenedor .texto-logo{
     font-size: 30px;
     margin: 0 auto 0 30px;
+  }
+  .family .content-text{
+    padding-top: 60px;
   }
 }

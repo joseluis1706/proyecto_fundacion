@@ -48,6 +48,11 @@ main .family::before{
     margin-top: 20px;
     font-size: 1.2rem;
 }
+#nuestros-niños,
+#voluntarios,
+#benefactores{
+    padding-top: 50px;
+}
 
 .title-cards{
     margin: 30px auto;
@@ -122,6 +127,8 @@ h3{
 .ayuda .ayuda-container-article{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 .ayuda article{
     width: 45%;
