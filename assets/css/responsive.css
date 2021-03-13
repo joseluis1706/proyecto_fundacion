@@ -149,6 +149,10 @@
     padding: 10px;
     font-size: 1em;
   }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 200px;
+  }
 }
 
 /* ------------------------------------------------------- */
@@ -222,6 +226,10 @@
   .ayuda article {
       width: 80%;
       margin: 10px auto;
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 50px;
+    margin: 0 auto 0 200px;
   }
 }
 
@@ -337,8 +345,11 @@
   }
   .footer-titulo {
     margin: 0px 10px;
-    
-}
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 80px;
+  }
 
 }
 
@@ -403,6 +414,10 @@
   .logo-contenedor p{
     font-size: 1.1em;
 }
+.logo-contenedor .texto-logo{
+  font-size: 30px;
+  margin: 0 auto 0 60px;
+}
 }
 
 
@@ -424,6 +439,9 @@
   }
   .logo-contenedor p{
     font-size: 1.1em;
-}
-
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 30px;
+  }
 }
