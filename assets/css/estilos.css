@@ -12,21 +12,58 @@
     overflow: hidden;
     position: absolute;
 }
-.hero .container-video{
+.hero .container-animation{
     width: 100%;
     height: 100vh;
     overflow: hidden;
     padding-bottom: 56.25%;
     padding-top: 30px;
     position: relative;
+    opacity: 80%;
+    animation: video 20s alternate-reverse infinite linear;
+    transition: all ease;
+    /* transition: all 5s linear; */
 }
-.hero .container-video video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    top: 0;
+@keyframes video{
+    0%{
+        background: url(../img/niño1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    20%{
+        
+        background: url(../img/grupo.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    40%{
+        background: url(../img/actividades1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background: url(../img/Entrega_regalos4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 5s linear;
+    }
+    80%{
+        background: url(../img/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background: url(../img/slide8.jpg);
+        
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .hero .hero-container-text{
