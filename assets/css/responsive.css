@@ -15,142 +15,195 @@
 /* ---------------------------------------------------- */
 
 @media screen and (max-width: 1024px) {
-    .hero {
-        height: 100vmin;
-    }
-    .redes a {
-        font-size: 1em;
-    }
-    .redes {
-        margin-right: 0.5em;
-    }
-    .navbar {
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
-        margin-top: 0;
-        height: auto;
-    }
-    .nav-lm {
-        height: 4.5em;
-    }
-    .menu-lm {
-        width: 80%;
-    }
-    .navbar {
-        padding-top: 0em;
-        padding-bottom: 0;
-        margin-top: 0;
-    }
-    .menu-lm ul li a:hover {
-        border-radius: 1;
-        padding: 0.5em;
-    }
-    .menu li a {
-        padding: 10px;
-        width: 10px;
-        height: 10px;
-        font-size: 25px;
-        border-radius: 100%;
-    }
-    .navbar-collapse {
-        /* background-color: white; */
-    }
-    .slider__btn {
-        width: 40px;
-        height: 40px;
-        font-size: 25px;
-    }
+
+  .hero {
+    height: 100vmin;
+  }
+  .redes a {
+    font-size: 1em;
+  }
+  .redes {
+    margin-right: 0.5em;
+  }
+  .navbar {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-top: 0;
+    height: auto;
+  }
+  .nav-lm{
+    height: 4.5em;
+    font-size: .8em;
+  }
+  .logo-contenedor{
+    width: 25%;
+  }
+  .navbar-toggler{
+      margin-bottom: auto;
+  }
+  .menu-lm {
+    width: 80%;
+  }
+  .navbar {
+    padding-top: 0em;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  .menu-lm ul li a:hover {
+    border-radius: 1;
+    padding: 0.5em;
+  }
+  .menu li a {
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 25px;
+    border-radius: 100%;
+  }
+  /* .navbar-collapse { */
+    /* background-color: white; */
+  /* } */
+  .slider__btn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 991px) {
-    .collapse {
-        background-color: white;
-        /* padding: 10px 10px; */
-    }
+    .nav-lm{
+        height: 6em;
+        font-size: .8em;
+     }
+      .logo-contenedor{
+        width: 25%;
+     }
+     .navbar-toggler{
+        margin-top: auto;
+        font-size: 2em;
+        margin-right: .5em;
+     }
+     .menu-lm {
+        width: 100vw;
+      }
+  .collapse {
+    background-color: white;
+    /* padding: 10px 10px; */
+  }
 }
+
 
 /* ------------------------------------------------------- */
 /* ESTO TENDRIA QUE IR ANTES QUE 768PX */
 /* ------------------------------------------------------- */
 @media screen and (max-width: 873px) {
-    .jumbotrom {
-        width: 100%;
-        height: 100vh;
-    }
-    .jumbotron .display-4 {
-        margin-top: 3em;
-    }
-    .container-slide {
-        width: 400px;
-        padding: 15px;
-    }
-    .slider__btn {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-    }
-    .family-cards .card {
-        width: 45%;
-    }
-    .navbar {
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
-        margin-top: 0;
-    }
-    .menu-lm {
-        width: 100vw;
-    }
-    .container-fluid {
-        padding: 0;
-    }
-    .navbar {
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
-        margin-top: 0;
-        height: 7em;
-    }
-    .hero .hero-container-text a {
-        padding: 10px;
-        font-size: 1em;
-    }
 
-    .family-cards .card{
-        width: 40%;
-    }
+  .nav-lm{
+    height: 3.5em;
+    font-size: .8em;
+ }
+  .logo-contenedor{
+    width: 28%;
+ }
+ .navbar-toggler{
+    margin-top: auto;
+    font-size: 2em;
+    margin-right: .5em;
+ }
+  .jumbotrom {
+    width: 100%;
+    height: 100vh;
+  }
+  .jumbotron .display-4 {
+    margin-top: 3em;
+  }
+  .container-slide {
+    width: 400px;
+    padding: 15px;
+  }
+  .slider__btn {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .family-cards .card {
+    width: 45%;
+  }
+  .navbar {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-top: 0;
+  }
+  .menu-lm {
+    width: 100vw;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .navbar {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-top: 0;
+    height: 7em;
+  }
+  .hero .hero-container-text a {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 200px;
+  }
+  .family-cards .card{
+    width: 40%;
+}
 }
 
 /* ------------------------------------------------------- */
 /*    TABLET    */
 /* ------------------------------------------------------- */
 @media screen and (max-width: 768px) {
-    .navbar {
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
-        margin-top: 0;
-        height: 7em;
-    }
-    .redes a {
-        font-size: 0.8em;
-    }
-    .btn-flotante {
-        font-size: 1.1em;
-        padding: 0.7em 0.9em;
-        right: 10px;
-    }
 
-    .hero .hero-container-text a {
-        width: 100%;
-        border-radius: 2em;
-        font-size: 0.8em;
+    .nav-lm{
+        height: 3em;
+        font-size: 1em;
     }
-    .hero-container-text h2 {
-        font-size: 2rem;
+    .logo-contenedor{
+        width: 33%;
     }
-    .hero-container-text h3 {
-        font-size: 1.5rem;
+    .navbar-toggler{
+        margin-top: auto;
+        font-size: 2em;
+        margin-right: .5em;
     }
-    .jumbotrom {
-        width: 100%;
-    }
+  .navbar {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-top: 0;
+    height: 7em;
+  }
+  .redes a {
+    font-size: 0.8em;
+  }
+  .btn-flotante {
+    font-size: 1.1em;
+    padding: 0.7em 0.9em;
+    right: 10px;
+  }
+  
+  .hero .hero-container-text a {
+      width: 100%;
+      border-radius: 2em;
+      font-size: 0.8em;
+  }
+  .hero-container-text h2 {
+      font-size: 2rem;
+  }
+  .hero-container-text h3 {
+      font-size: 1.5rem;
+  }
+  .jumbotrom {
+      width: 100%;
+  }
 
     /* .menu li a{
         display: none;
@@ -180,73 +233,95 @@
         width: 80%;
         margin: 10px auto;
     }
+  .logo-contenedor .texto-logo{
+    font-size: 50px;
+    margin: 0 auto 0 200px;
+  }
 }
 
 /* ------------------------------------------------------- */
 /*     CELULAR en HORIZONTAL   */
 /* ------------------------------------------------------- */
 @media screen and (max-width: 425px) {
-    .hero {
-        height: 100vmax;
-    }
-    .hero .hero-container-text {
-        width: 80%;
-    }
-    /* .hero .hero-container-text p{
-        width: 100vw;
-        color: white;
-        font-size: 1em;
-    } */
-    .hero .hero-container-text a {
-        padding: 10px;
-        font-size: 1em;
-    }
-    .hero-container-text span {
-        font-size: 1.2em;
-        color: var(--amarillo);
-        font-weight: bold;
-    }
-    .nav-lm {
-        height: 4em;
-    }
-    .navbar {
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
-        margin-top: 0;
-        height: 7em;
-    }
-    .hero .hero-container-text a:hover {
-        transform: scale(1.2);
-    }
-    .container-main-historia .main-mision {
-        width: 84%;
-        height: auto;
-    }
-    .container-main-historia .main-vision {
-        width: 84%;
-        height: auto;
-    }
-    .row {
-        --bs-gutter-x: 0rem;
-    }
-    ol,
-    ul {
-        padding-left: 0.2rem;
-    }
-    .container-main-objeto-social .main-objeto {
-        margin-top: 15%;
-    }
-    .jumbotrom {
-        width: 100%;
-    }
 
-    .menu li a {
-        padding: 5px;
-        width: 4px;
-        height: 4px;
-        font-size: 12px;
-        border-radius: 100%;
-    }
+ .nav-lm{
+    height: 3em;
+    font-size: .8em;
+  }
+  .logo-contenedor{
+    width: 40%;
+  }
+  .logo-contenedor p{
+    font-size: 1.1em;
+}
+ .navbar-toggler{
+    margin-top: auto;
+    font-size: 1.5em;
+    margin-right: .5em;
+  }
+  .hero {
+    height: 100vmax;
+  }
+  .hero .hero-container-text {
+    width: 80%;
+  }
+
+  .hero .hero-container-text {
+      width: 80%;
+  }
+  /* .hero .hero-container-text p{
+      width: 100vw;
+      color: white;
+      font-size: 1em;
+  } */
+
+  .hero .hero-container-text a {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .hero-container-text span {
+    font-size: 1.2em;
+    color: var(--amarillo);
+    font-weight: bold;
+  }
+  .navbar {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    margin-top: 0;
+    height: 7em;
+  }
+  .hero .hero-container-text a:hover {
+    transform: scale(1.2);
+  }
+  .container-main-historia .main-mision {
+    width: 84%;
+    height: auto;
+  }
+  .container-main-historia .main-vision {
+    width: 84%;
+    height: auto;
+  }
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+  ol,
+  ul {
+    padding-left: 0.2rem;
+  }
+  .container-main-objeto-social .main-objeto {
+    margin-top: 15%;
+  }
+  .jumbotrom {
+    width: 100%;
+  }
+
+  .menu li a {
+      padding: 5px;
+      width: 4px;
+      height: 4px;
+      font-size: 12px;
+      border-radius: 100%;
+  }
     .btn-flotante {
         font-size: 1em;
         padding: 0.7em 0.9em;
@@ -271,21 +346,22 @@
         flex-flow:wrap row;
         justify-content: space-around;
         align-items: center; */
-    }
-    .footer-sup .footer-map {
-        /* border: 1px solid red; */
-        margin-bottom: 10px;
-        width: 100%;
-        padding: 0;
-        display: flex;
-    }
-    .footer-titulo {
-        margin: 0px 10px;
-    }
-    .footer-flecha {
-        width: 20px;
-    }
 
+  }
+  .footer-sup .footer-map {
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
+  .footer-titulo {
+    margin: 0px 10px;
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 80px;
+  }
 
 }
 
@@ -293,68 +369,91 @@
 /*   CELULAR VERTICAL   */
 /* ------------------------------------------------------- */
 @media screen and (max-width: 375px) {
-    .hero .hero-container-text {
-        width: 90%;
-    }
+  .hero .hero-container-text {
+      width: 90%;
+  }
 
-    .hero .hero-container-text p {
-        color: white;
-        font-size: 0.9em;
+  .hero .hero-container-text p {
+    color: white;
+    font-size: 0.9em;
+  }
+  .hero .hero-container-text a {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .hero-container-text span {
+    color: var(--amarillo);
+    font-weight: bold;
+  }
+  @keyframes btn {
+    from {
+      transform: none;
     }
-    .hero .hero-container-text a {
-        padding: 10px;
-        font-size: 1em;
+    50% {
+      transform: scale(1.1);
     }
-    .hero-container-text span {
-        color: var(--amarillo);
-        font-weight: bold;
+    to {
+      transform: none;
     }
-    @keyframes btn {
-        from {
-            transform: none;
-        }
-        50% {
-            transform: scale(1.1);
-        }
-        to {
-            transform: none;
-        }
-    }
-    .btn-flotante {
-        font-size: 1em;
-        padding: 0.7em 0.9em;
-        right: 10px;
-    }
-    .jumbotrom {
-        width: 100%;
-    }
-    .menu li a {
-        padding: 5px;
-        width: 4px;
-        height: 4px;
-        font-size: 12px;
-        border-radius: 100%;
-    }
-    .slider__btn {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-    }
-    .menu-lm {
-        width: 100vw;
-    }
+  }
+  .btn-flotante {
+    font-size: 1em;
+    padding: 0.7em 0.9em;
+    right: 10px;
+  }
+  .jumbotrom {
+    width: 100%;
+  }
+  .menu li a {
+    padding: 5px;
+    width: 4px;
+    height: 4px;
+    font-size: 12px;
+    border-radius: 100%;
+  }
+  .slider__btn {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .menu-lm {
+    width: 100vw;
+  }
+
+  .logo-contenedor{
+    width: 40%;
+  }
+  .logo-contenedor p{
+    font-size: 1.1em;
 }
+.logo-contenedor .texto-logo{
+  font-size: 30px;
+  margin: 0 auto 0 60px;
+}
+}
+
 
 /* -------------------------------------------------------- */
 /*    CELULAR PEQUEÑO    */
 /* -------------------------------------------------------- */
 @media screen and (max-width: 320px) {
-    .slider__btn {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-    }
-    .menu-lm {
-        width: 100vw;
-    }
+
+  .slider__btn {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .menu-lm {
+    width: 100vw;
+  }
+ .logo-contenedor{
+    width: 48%;
+  }
+  .logo-contenedor p{
+    font-size: 1.1em;
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 30px;
+  }
 }

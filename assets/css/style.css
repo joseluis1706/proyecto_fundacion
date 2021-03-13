@@ -25,14 +25,17 @@
     /*  USAR H2 PARA LOS TITULOS PRINCIPALES */
     /* -------------------------------------------------- */
     --titulo-font: 'Montserrat', sans-serif;
+    /* --titulo-size: 60px; */
     /* -------------------------------------------------- */
     /*  USAR H3 PARA LOS SUBTITULOS  */
     /* -------------------------------------------------- */
     --subtitulo-font: 'Lato', sans-serif;
+    /* --subtitulo-size: 30px; */
     /* -------------------------------------------------- */
     /*  usar "p" para los parrafos */
     /*  --------------------------------------------------*/
     --parrafo-font: 'Lato', sans-serif;
+    /* --parrafo-size:14px; */
 }
 body{
     font-family: var(--parrafo-font);
@@ -42,6 +45,7 @@ h2 {
 }
 h3 {
     font-family: var(--subtitulo-font);
+    /* font-size: var(--subtitulo-size); */
 }
 
 /* --------------------------------------------------------- */
@@ -52,7 +56,7 @@ h3 {
     color: white;
 }
 .nav-lm{
-    height: 5em;
+    height: 5.5em;
     position: fixed;
     width: 100vw;
     z-index: 10;
@@ -89,13 +93,13 @@ h3 {
 /* ---LOGO DE LA BARRA DE NAVEGACIÓN--------- */
 .logo-contenedor {
     /* border: 1px solid indigo; */
-    background-image: url(../logo/image2logo.svg);
-    background-position: center;
+    /* background-image: url(../logo/image2logo.svg); */
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 65px;
+    background-size: 65px; */
     height: 100%;
-    width: 80px;
+    width:25%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -110,14 +114,20 @@ h3 {
     margin: 0;
     width: 60px;
 } */
-
-.logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    padding: 5px;
+.logo-contenedor p{
+    font-size: 2em;
 }
+.logo img{
+    width: inherit;
+    /* height: 100%; */
+    /* object-fit: cover;
+    z-index: -1;
+    padding: 5px; */
+}
+.logo-contenedor .texto-logo{
+    font-size: 26px;
+    margin: 0 auto 0 30px;
+  }
 .redes{
     display: flex;
     margin-right: 3em;   
@@ -312,8 +322,8 @@ a{
     
     display: flex;
     flex-direction: column;
-    justify-content: ;
-    align-items: ;
+    /* justify-content: ;
+    align-items: ; */
 }
 .footer-logo {
     margin-right: 10px;
@@ -356,11 +366,11 @@ a{
     width: 100%;
 }
 
-.plataforma-ancestro {
+/* .plataforma-ancestro {
     background-color: black;
     height: ;
     color: var(--gris_4);
-}
+} */
 .plataforma-link {
     /* border: 1px solid blue; */
     font-size: 13px;
