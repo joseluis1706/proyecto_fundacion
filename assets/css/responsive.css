@@ -233,10 +233,17 @@
         width: 80%;
         margin: 10px auto;
     }
+    #nuestros-niños,
+#voluntarios,
+#benefactores{
+    padding-top: 70px;
+}
+
   .logo-contenedor .texto-logo{
     font-size: 50px;
     margin: 0 auto 0 200px;
   }
+
 }
 
 /* ------------------------------------------------------- */
@@ -338,6 +345,9 @@
     }
     .family-cards .card {
         width: 80%;
+    }
+    .title-cards{
+      margin: 20px auto;
     }
 
     /* ---------FOOTER-------------------- */
