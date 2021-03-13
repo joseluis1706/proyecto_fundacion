@@ -2,6 +2,9 @@
 body{
     font-family: var(--parrafo-font);
 }
+main{
+    background: linear-gradient(to bottom, var(--gris_4) ,var(--gris_2));
+}
 main .family{
     width: 100%;
     height: 100vh;
@@ -20,9 +23,10 @@ main .family::before{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.664);
-    /* z-index: 0; */
+    background-color: #fbfbfb9c;
+    z-index: 1;
 }
+
 .content-text{
     width: 70%;
     position: absolute;
@@ -41,13 +45,16 @@ main .family::before{
 .family h1{
     color: var(--naranja);
     font-size: 3rem;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-weight: bold;
+    
 }
 .family h4{
     color: var(--naranja);
     font-family: var(--subtitulo-font);
     font-size: 2rem;
     font-weight: bold;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
 }
 .family p{
     color: black;
@@ -65,7 +72,7 @@ main .family::before{
     margin: 30px auto;
     padding-top: 20px;
     color: var(--naranja);
-}
+    }
 .family-cards .card{
     width: 30%;
     padding: 0;
