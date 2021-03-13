@@ -1,5 +1,7 @@
 @import url(style.css);
-
+body{
+    font-family: var(--parrafo-font);
+}
 main .family{
     width: 100%;
     height: 100vh;
@@ -19,9 +21,10 @@ main .family::before{
     left: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.664);
-    z-index: 1;
+    /* z-index: 0; */
 }
 .content-text{
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,10 +43,22 @@ main .family::before{
     font-size: 3rem;
     text-shadow: 0 0 5px white;
 }
+.family h4{
+    color: var(--naranja);
+    font-family: var(--subtitulo-font);
+    font-size: 2rem;
+    font-weight: bold;
+}
 .family p{
     color: black;
     margin-top: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+#nuestros-niños,
+#voluntarios,
+#benefactores,
+#ayuda{
+    padding-top: 50px;
 }
 
 .title-cards{
@@ -54,10 +69,7 @@ main .family::before{
 .family-cards .card{
     width: 30%;
     padding: 0;
-    margin: 10px !important;
-}
-#voluntarios{
-    margin-bottom: 50px;
+    margin: 10px auto !important;
 }
 h3{
     font-size: 2.5rem;
@@ -72,7 +84,7 @@ h3{
 /* Benefactores */
 .benefactores{
     padding: 10px;
-    background: var(--bg-gradient-principal);
+    /* background: var(--bg-gradient-principal); */
 } 
 .benefactores .benefactores-container{
     width: 80%;
@@ -105,19 +117,31 @@ h3{
 .ayuda{
     width: 100%;
     padding: 10px;
+    background: var(--bg-gradient-principal);
+
 }
 .ayuda h3{
-    color: var(--azul);
+    color: var(--naranja);
+}
+.ayuda h4{
+    font-family: var(--subtitulo-font);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color:white;
 }
 .ayuda .ayuda-container-article{
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 .ayuda article{
     width: 45%;
     margin: 10px;
     padding: 40px 20px;
-    background-color: var(--azul);
+    /* background: var(--bg-gradient); */
+    background: white;
 
     display: flex;
     flex-flow: column;
@@ -126,22 +150,22 @@ h3{
 }
 .ayuda .ayuda-container-article h4{
     text-align: center;
-    color: var(--verde);
+    color: var(--naranja);
     font-weight: bold;
     font-size: 2rem;
 }
 .ayuda .ayuda-container-article p{
-    font-size: 1rem;
-    color: white;
+    font-size: 1.2rem;
+    color: black;
     text-align: justify;
-    margin: 20px auto;
+    margin: 0 auto 20px;
 }
 .ayuda .ayuda-container-article button{
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     border-radius: 20px;
-    background-color: var(--verde);
+    background-color: var(--naranja);
     margin: auto;
 }
 .ayuda .ayuda-container-article button:focus{
