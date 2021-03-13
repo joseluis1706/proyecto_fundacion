@@ -112,6 +112,10 @@
         padding: 10px;
         font-size: 1em;
     }
+
+    .family-cards .card{
+        width: 40%;
+    }
 }
 
 /* ------------------------------------------------------- */
@@ -151,6 +155,9 @@
     /* .menu li a{
         display: none;
     } */
+    .family .content-text {
+        width: 95%;
+    }
     .benefactores .benefactores-container {
         flex-direction: column;
     }
@@ -244,6 +251,12 @@
         font-size: 1em;
         padding: 0.7em 0.9em;
         right: 10px;
+    }
+    main .family{
+        padding-top: 120px;
+    }
+    .family .content-text{
+        padding-top: 20px;
     }
     .family-cards .card {
         width: 80%;

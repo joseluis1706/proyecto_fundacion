@@ -36,15 +36,12 @@
 }
 body{
     font-family: var(--parrafo-font);
-    font-size: var(--parrafo-size);
 }
 h2 {
     font-family: var(--titulo-font);
-    font-size: var(--titulo-size);
 }
 h3 {
     font-family: var(--subtitulo-font);
-    font-size: var(--subtitulo-size);
 }
 
 /* --------------------------------------------------------- */
@@ -58,7 +55,7 @@ h3 {
     height: 5em;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 10;
     margin-bottom: 2em;
     background-color:rgba(255, 255, 255, 0.596);
     box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
@@ -453,5 +450,5 @@ a{
 /* ------------------------------------------------------ */
 .sticky{
     background-color: white;
-    
+    z-index: 10;
 }
