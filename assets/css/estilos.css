@@ -20,9 +20,7 @@
     padding-top: 30px;
     position: relative;
     opacity: 80%;
-    animation: video 20s alternate-reverse infinite linear;
-    transition: all ease;
-    /* transition: all 5s linear; */
+    animation: video 30s  infinite linear ;
 }
 @keyframes video{
     0%{
@@ -30,6 +28,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        
     }
     20%{
         
@@ -49,7 +48,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        transition: all 5s linear;
+        
     }
     80%{
         background: url(../img/slide2.jpg);
@@ -59,7 +58,6 @@
     }
     100%{
         background: url(../img/slide8.jpg);
-        
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
