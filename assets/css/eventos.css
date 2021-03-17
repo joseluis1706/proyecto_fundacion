@@ -18,4 +18,40 @@ main h1{
     font-size: 1.5rem;
     color: var(--azul);
     font-family: var(--parrafo-font);
+    margin-bottom: 30px;
+}
+main .eventos{
+    width: 80%;
+    margin: 0 auto;
+}
+main .eventos article{
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--azul);
+}
+
+main .eventos-img{ 
+    width: 100%;
+    min-height: 300px;
+    height: 70vh;
+    max-height: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+main .eventos img{
+    width: 49%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.eventos h3{
+    font-size: 2rem;
+    color: var(--naranja);
+    font-weight: bold;
+    font-family: var(--titulo-font);
+}
+.eventos p{
+    font-size: 1.2rem;
 }
