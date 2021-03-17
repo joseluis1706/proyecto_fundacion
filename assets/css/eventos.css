@@ -31,26 +31,35 @@ main .eventos article{
 
 main .eventos-img{ 
     width: 100%;
-    min-height: 300px;
-    height: 70vh;
-    max-height: 600px;
+    height: 500px;
     margin: 20px auto;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
+}
+.eventos .tour .eventos-img{
+    width: 50%;
+    height: 600px;
+}
+.eventos .tour .eventos-img img{
+    width: 100%;
+    height: 100%;
 }
 main .eventos img{
     width: 49%;
     height: 100%;
     object-fit: cover;
-    overflow: hidden;
 }
 .eventos h3{
     font-size: 2rem;
     color: var(--naranja);
     font-weight: bold;
     font-family: var(--titulo-font);
+}
+.eventos h3:nth-child(1){
+    text-align: center;
 }
 .eventos p{
     font-size: 1.2rem;

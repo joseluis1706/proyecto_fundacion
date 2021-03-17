@@ -89,6 +89,14 @@
     background-color: white;
     /* padding: 10px 10px; */
   }
+  .eventos .tour .eventos-img{
+    width: 80%;
+    height: 400px;
+}
+.eventos .tour .eventos-img img{
+    width: 100%;
+    height: 100%;
+}
 }
 
 
@@ -234,16 +242,28 @@
         margin: 10px auto;
     }
     #nuestros-niños,
-#voluntarios,
-#benefactores{
+    #voluntarios,
+    #benefactores{
     padding-top: 70px;
-}
-
+  }
   .logo-contenedor .texto-logo{
     font-size: 50px;
     margin: 0 auto 0 200px;
   }
-
+  main .eventos{
+    width: 95%;
+  }
+  main .eventos-img{
+    height: 200px;
+  }
+  .eventos .tour .eventos-img{
+    width: 60%;
+    height: 400px;
+}
+.eventos .tour .eventos-img img{
+    width: 100%;
+    height: 100%;
+}
 }
 
 /* ------------------------------------------------------- */
@@ -351,7 +371,7 @@
     }
 
     /* ---------FOOTER-------------------- */
-    .footer-sup {
+    /* .footer-sup { */
         /* border: 1px solid rgb(25, 0, 255);
         width: 100%;
         padding: 10px;
@@ -360,7 +380,7 @@
         justify-content: space-around;
         align-items: center; */
 
-  }
+  /* } */
   .footer-sup .footer-map {
     /* border: 1px solid red; */
     margin-bottom: 10px;
@@ -375,6 +395,17 @@
     font-size: 30px;
     margin: 0 auto 0 80px;
   }
+  main .eventos-img img{
+    width: 100%;
+  }
+  .eventos .tour .eventos-img{
+    width: 90%;
+    height: 400px;
+}
+.eventos .tour .eventos-img img{
+    width: 100%;
+    height: 100%;
+}
 
 }
 
