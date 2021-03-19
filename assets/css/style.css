@@ -366,11 +366,11 @@ a{
     width: 100%;
 }
 
-/* .plataforma-ancestro {
+.plataforma-ancestro {
     background-color: black;
-    height: ;
+    /* height: ; */
     color: var(--gris_4);
-} */
+}
 .plataforma-link {
     /* border: 1px solid blue; */
     font-size: 13px;
