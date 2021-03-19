@@ -213,7 +213,7 @@ h3{
     align-items: center;
 }
 .modal-container .modal-apadrinar{
-    width: 40%;
+    width: 30%;
     height: 80vh;
     background-color: white;
     overflow: hidden;
@@ -246,22 +246,23 @@ h3{
 .modal-apadrinar .modal-apadrinar-text{
     width: 90%;
     height: 80%;
-    margin: 0 auto;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+    margin: auto;
 }
+
 .modal-apadrinar .modal-apadrinar-text h3{
     font-size: 1.8rem;
-    width: 80%;
+    width: 95%;
     margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 address{
-    margin: 20px auto;
-    text-align: center;
+    margin: 20px 0 0 10% ;
 }
 address i{
     width: 30px;
@@ -278,6 +279,7 @@ address a{
     border-radius: 50%;
     color: white;
     font-size: 1.2rem;
+    text-align: center;
 }
 .whatsApp i{
     background-color: #25D366;
