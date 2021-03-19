@@ -140,30 +140,27 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <h3 class="text-center title-cards ">Nuestros Niños</h3>
           <div class="card m-auto">
             <img src="./assets/img/niño1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
+            </div> -->
           </div>
           <div class="card m-auto">
             <img src="./assets/img/grupo.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
+              </div> -->
           </div>
           <div class="card m-auto">
             <img src="./assets/img/Foto4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
+              </div> -->
           </div>
         </div>
       </div>
@@ -172,30 +169,30 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <h3 class="text-center title-cards">Voluntarios</h3>
           <div class="card m-auto">
             <img src="./assets/img/actividades1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            </div> -->
           </div>
           <div class="card m-auto">
             <img src="./assets/img/Foto2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            </div> -->
           </div>
           <div class="card m-auto">
             <img src="./assets/img/ayuda2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <!-- <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+            </div> -->
           </div>
           
         </div>
@@ -232,7 +229,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <h4>Apadrina a un niño</h4>
           <p>Ayudemos a cambiar la Historia de los niños, de Colombia que necesitan nuestra ayuda para poder comer, ir al colegio, y suplir sus necesidades más básicas. Ayúdanos a mitigar el hambre y la pobreza. Podemos mejorar su calidad de vida. </p>
           <h6><strong>¡JUNTOS CONSTRUYAMOS UN MUNDO MEJOR!</strong></h6>
-          <button>Apadrinar</button>
+          <button id="cta">Apadrinar</button>
         </article>
         <article>
           <h4>Doná</h4>
@@ -246,19 +243,147 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       </div>
     </section>
   </main>
-  <section class="modal-apradrinar">
-    <article>
-      <h3>Contáctanos</h3>
-      <h4>telefono: </h4>
+  <section class="modal-container" id="modal-container">
+    <article id="modal-apadrinar" class="modal-apadrinar modal-close">
+      <figure>
+        <img src="assets/logo/FV-logo-3colores.svg" alt="">
+        <figcaption>FUNCOVIVE</figcaption>
+      </figure>
+      <div class="modal-apadrinar-text">
+        <p class="close" id="close">X</p>
+        <h3>Para apadrinar a nuestros niños, comunícate con nosotros:</h3>
+        <address class="whatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <a target="_blanck">+57 304 5818768</a target="_blanck">
+        </address> 
+        <address class="phone">
+          <i class="fas fa-mobile-alt"></i>
+          <a target="_blanck">+57 304 5818768</a target="_blanck">
+      </address> 
+      <address class="mail">
+        <i class="fas fa-envelope-open-text"></i>
+        <a target="_blanck">funcovive2009@hotmail.com</a target="_blanck">
+    </address> 
+    <address class="maps">
+      <i class="fas fa-map-marker-alt"></i>
+      <a target="_blanck">Barrio La Esperanza - Av. Principal Nro. 39-74
+        Cartagena de Indias - Colombia</a target="_blanck">
+  </address>  
+      </div>
     </article>
   </section>
 
   <!---------------FOOTER----------------------------------------------------------------------->
-  <div class="container-footer">
-    <div class="row">
-        <footer class="seccion">Pié de pagina - contactos - desarrolladores </footer>
-    </div>
+  <div class="container-fluid footer-ancestro">
+    <div class="container footer-wraper">
 
+        <div class="row footer-sup">
+            <div id="footer-map" class="footer-map">
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d981.0272928077037!2d-75.51880417084368!3d10.412903418553622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62584e35195eb%3A0x80ee683fbc1c4172!2sCl.%2032a%20%2333-99%20a%2033-1%2C%20Cartagena%2C%20Provincia%20de%20Cartagena%2C%20Bol%C3%ADvar%2C%20Colombia!5e0!3m2!1ses-419!2sar!4v1615466272927!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div class="footer-contacto">
+                <div class="footer-titulo">
+
+                    <h2>Contacto</h2>
+
+                    <div class="footer-conteiner-links">
+                        <div class="footer-links">
+                            <img src="assets/logo/googlemap.svg" alt="Lugar">
+                            <p>
+                                Barrio La Esperanza - Av. Principal Nro. 39-74 <br>
+                                Cartagena de Indias - Colombia
+                            </p>
+                        </div>
+
+                        <div class="footer-links">
+                            <img src="assets/logo/whatsapp (1).svg" alt="celular">
+                            <a href="" target="_blank">+57 304 5818768</a>
+                        </div>
+
+                        <div class="footer-links">
+                            <img src="assets/logo/facebook.svg" alt="facebook">
+                            <a href="" target="_blank">Fundación Colombia vive</a>
+                        </div>
+
+                        <div class="footer-links">
+                            <img src="assets/logo/email.svg" alt="correo">
+                            <a href="" target="_blank">funcovive2009@hotmail.com</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="footer-logo">
+                    <img src="assets/logo/FV-logo-gris.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid plataforma-ancestro">
+    <div class="row plataforma-link">
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Desarrollado por PLATAFORMA 39A
+        </a>
+        <div class="footer-flecha">
+            <img src="assets/logo/clic.svg" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- -------------MODAL DE PLATAFORMA 39A--------------------------- -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content contenedor-desarrolladores">
+
+            <div class="modal-header">
+                <h5 class="modal-title titulo-desarrolladores" id="exampleModalLabel">Desarrolladores</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body renglon-desarrolladores">
+                <div class="foto-desarrolladores">
+                    <img src="/assets/Desarrolladores/perfil001 (2).jpg" alt="Gabriel argentina">
+                </div>
+                <div class="nombre-desarrolladores"> Lina </div>
+            </div>
+
+            <div class="modal-body renglon-desarrolladores">
+                <div class="foto-desarrolladores">
+                    <img src="/assets/Desarrolladores/perfil001 (2).jpg" alt="Gabriel argentina">
+                </div>
+                <div class="nombre-desarrolladores"> Priscilla </div>
+            </div>
+
+            <div class="modal-body renglon-desarrolladores">
+                <div class="foto-desarrolladores">
+                    <img src="/assets/Desarrolladores/perfil001 (2).jpg" alt="Gabriel argentina">
+                </div>
+                <div class="nombre-desarrolladores"> Claudia </div>
+            </div>
+
+            <div class="modal-body renglon-desarrolladores">
+                <div class="foto-desarrolladores">
+                    <img src="/assets/Desarrolladores/perfil001 (2).jpg" alt="Gabriel argentina">
+                </div>
+                <div class="nombre-desarrolladores"> Juan Carlos </div>
+            </div>
+
+            <div class="modal-body renglon-desarrolladores">
+                <div class="foto-desarrolladores">
+                    <img src="/assets/Desarrolladores/perfil001 (2).jpg" alt="Gabriel argentina">
+                </div>
+                <div class="nombre-desarrolladores"> Gaby </div>
+            </div>
+            
+            <div class="modal-footer footer-desarrolladores">
+                <button type="button" class="btn btn-desarrolladores">
+                    <a href="">Ir a Plataforma 39A</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
   <!-- Complementos y dependencias Bootstrap 5.0 JavaScript y Popper-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
