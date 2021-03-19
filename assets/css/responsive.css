@@ -69,40 +69,18 @@
     font-size: 25px;
   }
   /* Modal Apadrina a un niño */
-  .modal-apadrinar .modal-apadrinar-text{
-    width: 95%;
-  }
+  
   .modal-apadrinar figure img{
-    width: 25%;
+    width: 15%;
   }
   .modal-apadrinar figure figcaption{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 .modal-apadrinar .modal-apadrinar-text h3{
-  font-size: 1.2rem;
-}
-address i{
-  width: 25px;
-  height: 25px;
-  
-}
-.fa-whatsapp:before,
-.fa-mobile-alt::before,
-.fa-envelope-open-text:before,
-.fa-map-marker-alt:before{
-    line-height: 25px;
-}
-.whatsApp i,
-.phone i,
-.mail i,
-.maps i{
-    font-size: 1rem;
-}
-address {
-  margin-left: 5%;
+  font-size: 1.5rem;
 }
 address a{
-  font-size: .8rem
+  font-size: 1rem
 };
 }
 
@@ -110,16 +88,16 @@ address a{
     .nav-lm{
         height: 6em;
         font-size: .8em;
-     }
+    }
       .logo-contenedor{
         width: 25%;
-     }
-     .navbar-toggler{
+    }
+    .navbar-toggler{
         margin-top: auto;
         font-size: 2em;
         margin-right: .5em;
-     }
-     .menu-lm {
+    }
+    .menu-lm {
         width: 100vw;
       }
   .collapse {
@@ -304,12 +282,12 @@ address a{
     height: 100%;
 }
 .modal-container .modal-apadrinar {
-  width: 50%;
+  width: 70%;
 }
 }
 @media screen and (max-width: 550px){
   .modal-container .modal-apadrinar {
-    width: 60%;
+    width: 75%;
   }
 }
 
@@ -454,7 +432,7 @@ address a{
     height: 100%;
 }
 .modal-container .modal-apadrinar {
-  width: 70%;
+  width: 80%;
 }
 
 }
@@ -525,7 +503,7 @@ address a{
   margin: 0 auto 0 60px;
 }
   .modal-container .modal-apadrinar {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -557,6 +535,6 @@ address a{
     padding-top: 60px;
   }
   .modal-container .modal-apadrinar {
-    width: 85%;
+    width: 95%;
   }
 }

@@ -205,7 +205,7 @@ h3{
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.74);
     opacity: 0;
     visibility: hidden;
 
@@ -215,7 +215,7 @@ h3{
     align-items: center;
 }
 .modal-container .modal-apadrinar{
-    width: 35%;
+    width: 45%;
     height: max-content;
     overflow: hidden;
     z-index: 2000;
@@ -263,9 +263,10 @@ h3{
     font-weight: bold;
     font-size: 2rem;
     color: white;
+    margin-left: 10px;
 }
 .modal-apadrinar .modal-apadrinar-text{
-    width: 90%;
+    width: 98%;
     height: 80%;
     padding: 10px;
     background-color: white;
@@ -284,15 +285,22 @@ h3{
     margin-bottom: 30px;
 }
 address{
-    margin-left:  10% ;
+    margin: 10px 0px 5px 15px;
 }
 address i{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     
+}
+.fa-whatsapp:before,
+.fa-mobile-alt::before,
+.fa-envelope-open-text:before,
+.fa-map-marker-alt:before{
+    line-height: 40px;
 }
 address a{
     cursor: pointer;
+    font-size: 1.2rem;
 }
 .whatsApp i,
 .phone i,
@@ -317,9 +325,3 @@ address a{
     background-color:var(--amarillo);
 }
 
-.fa-whatsapp:before,
-.fa-mobile-alt::before,
-.fa-envelope-open-text:before,
-.fa-map-marker-alt:before{
-    line-height: 30px;
-}
