@@ -214,16 +214,17 @@ h3{
 }
 .modal-container .modal-apadrinar{
     width: 30%;
-    height: 80vh;
-    background-color: white;
+    height: max-content;
     overflow: hidden;
     z-index: 2000;
     padding: 5px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     background-color: var(--gris_4);
+    overflow-y: scroll;
+    
 }
 .modal-apadrinar figure{
-    width: max-content;
+    /* width: max-content; */
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -250,19 +251,20 @@ h3{
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    margin-bottom: 15px;
+    
 }
 
 .modal-apadrinar .modal-apadrinar-text h3{
-    font-size: 1.8rem;
-    width: 95%;
-    margin: 10px auto;
+    font-size: 1.7rem;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
 address{
-    margin: 20px 0 0 10% ;
+    margin-left:  10% ;
 }
 address i{
     width: 30px;
