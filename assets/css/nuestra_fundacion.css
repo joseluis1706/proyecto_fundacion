@@ -273,6 +273,7 @@ h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 15px;
+    /* overflow-y: scroll; */
     
 }
 
@@ -292,7 +293,7 @@ address i{
     height: 40px;
     
 }
-.fa-whatsapp:before,
+.whatsApp .fa-whatsapp:before,
 .fa-mobile-alt::before,
 .fa-envelope-open-text:before,
 .fa-map-marker-alt:before{
