@@ -22,6 +22,9 @@
     opacity: 80%;
     animation: video 30s  infinite linear ;
 }
+abbr[title]{
+    text-decoration: none;
+}
 @keyframes video{
     0%{
         background: url(../img/niño1.jpg);
