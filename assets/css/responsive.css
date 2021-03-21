@@ -112,6 +112,10 @@ address a{
     width: 100%;
     height: 100%;
 }
+.carousel-inner p{
+  line-height: 1.5;
+  font-size: 1.0rem;
+}
 }
 
 
@@ -181,6 +185,10 @@ address a{
   }
   .modal-container .modal-apadrinar{
     width: 45%;
+  }
+  .carousel-inner p{
+    line-height: 1.5;
+    font-size: 1.0rem;
   }
 }
 /* ------------------------------------------------------- */
@@ -298,6 +306,10 @@ address a{
 }
 .container-historia h1{
   font-size: 1.8rem;
+}
+.carousel-inner p{
+  line-height: 1.5;
+  font-size: 1.0rem;
 }
 }
 
