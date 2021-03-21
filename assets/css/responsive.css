@@ -289,6 +289,16 @@ address a{
   .modal-container .modal-apadrinar {
     width: 75%;
   }
+  #container-historia .overlay p{
+    font-size: 0.8rem;
+    padding-top: 2px;
+}
+.container-historia .frase-historia{
+  font-size: 1.2rem;
+}
+.container-historia h1{
+  font-size: 1.8rem;
+}
 }
 
 /* ------------------------------------------------------- */
@@ -505,6 +515,10 @@ address a{
   .modal-container .modal-apadrinar {
     width: 90%;
   }
+  .footer-logo img {
+    margin-top: -364px;
+    margin-left: -144px;
+  }
 }
 
 
@@ -536,5 +550,9 @@ address a{
   }
   .modal-container .modal-apadrinar {
     width: 95%;
+  }
+  .footer-logo img {
+    margin-top: -364px;
+    margin-left: -118px;
   }
 }
