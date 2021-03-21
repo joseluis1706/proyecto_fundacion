@@ -1,15 +1,14 @@
 /* seccion historia*/
-@import "style.css";
-@import "estilos.css";
+@import url(style.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+/* :root{
     --font:1.25em;
     --bl:#000;
-}
+} */
 .carousel-item{
     position: relative;
 }
@@ -21,8 +20,9 @@
 .carousel-inner p{
     color: #fff;
     text-align: justify;
-    line-height: 1.8;
+    line-height: 2.0;
     padding: 30px;
+    font-size: 1.2rem;
 }
 #container-historia .overlay {
     position: absolute;
@@ -33,10 +33,11 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
   }
-  #container-historia .overlay h2{
+  #container-historia .overlay h1{
       /* font-size: 1.5em; */
       text-transform: uppercase;
       margin-top: 70px;
+      /* font-family: var(--titulo-font); */
   }
   #container-historia .overlay .container,
   #container-historia .overlay .row {
@@ -46,11 +47,16 @@
   margin-top: 20px;
   /* font-size: var(--font); */
   line-height: 1.5;
+  font-family: var(--subtitulo-font);
 }
 .container-historia .frase-historia span{
     font-size: var(---subtitulo-size);
+    font-family: var(--subtitulo-font);
     color: var(--naranja);
     font-weight: bold;
+}
+#container-historia .overlay p{
+font-family: var(--parrafo-font);
 }
 .container-main-historia{
     display: flex;
@@ -83,15 +89,21 @@
    .container-main-historia h3{
         text-transform: uppercase;
         text-align: center;
+        font-family: var(--subtitulo-font);
         /* font-size: 1.5em; */
     }
     .container-main-historia p{
         text-align: justify;
+        font-family: var(--parrafo-font);
+        font-size: 1.2rem;
         /* font-size: .8em; */
     }
     .container-main-objeto-social{
         color: #fff;
         background: linear-gradient(to bottom, var(--gris_4) , var(--gris_3));
+    }
+    .container-main-objeto-social h3{
+        font-family: var(--subtitulo-font);
     }
     .container-main-objeto-social .main-objeto{
         margin-top: 8%;
@@ -105,8 +117,9 @@
         list-style-type:circle;
         text-align: justify;
         margin: 40px;
-        line-height: 2.0;
-        font-size: var(--parrafo-size);
+        line-height: 2.5;
+        /* font-size: var(--parrafo-size); */
+        font-size: 1.2rem;
     }
     .row{
         --bs-gutter-x: 0rem;
