@@ -414,10 +414,18 @@ a{
     0% {filter: drop-shadow(0px 2px 5px var(--amarillo)); right:0px; right:0px;}
   }
 
-/* ----MODAL DE PLATAFORMA----------- */
+/* ----------------------------------------- */
+/*      MODAL DE LOS DESARROLLADORES         */
+/* ----------------------------------------- */
 .contenedor-desarrolladores {
     /* border: 1px solid red; */
     width: auto;
+}
+.header-desarrolladores {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .titulo-desarrolladores {
     color: var(--gris_1);
@@ -440,7 +448,7 @@ a{
 }
 .foto-desarrolladores {
     width: 60px;
-    margin: 10px 30px;
+    margin: 0px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
