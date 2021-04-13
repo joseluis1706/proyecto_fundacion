@@ -326,3 +326,63 @@ address a{
     background-color:var(--amarillo);
 }
 
+/* -------------------------------------- */
+/*      MODAL DEL FOOTER        */
+/* -------------------------------------- */
+.contenedor-desarrolladores {
+    /* border: 1px solid red; */
+    width: auto;
+}
+.titulo-desarrolladores {
+    color: var(--gris_1);
+}
+.body-desarrolladores {
+    /* border: 1px solid red; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.renglon-desarrolladores {
+    /* border: 1px solid blue; */
+    color: var(--gris_1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foto-desarrolladores {
+    width: 60px;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto-desarrolladores a {
+    width: 100%;
+}
+.foto-desarrolladores img {
+    border: 4px solid var(--azul);
+    border-radius: 50%;
+    width: 100%;
+}
+.foto-desarrolladores h3 {
+    font-size: 14px;
+    margin-top: 6px;
+    color: #212121;
+}
+.footer-desarrolladores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-desarrolladores {
+    background-color: var(--azul);
+}
+.btn-desarrolladores a {
+    color: var(--amarillo);
+    text-decoration: none;
+}
