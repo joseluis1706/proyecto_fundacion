@@ -127,7 +127,10 @@ h3 {
 .logo-contenedor .texto-logo{
     font-size: 26px;
     margin: 0 auto 0 30px;
-  }
+}
+.logo-contenedor .texto-logo abbr{
+    text-decoration: none;
+}
 .redes{
     display: flex;
     margin-right: 3em;   
