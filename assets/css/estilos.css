@@ -12,7 +12,7 @@ main{
     overflow: hidden;
     position: relative;
 }
-main video{
+/* main video{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -20,6 +20,10 @@ main video{
     position: absolute;
     top: 0;
     left: 0;
+} */
+main figure img{
+    width: 100vw;
+    position: absolute;
 }
 .hero{
     width: 100%;
