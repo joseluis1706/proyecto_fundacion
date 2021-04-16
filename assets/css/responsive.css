@@ -86,6 +86,10 @@
     height: 100vh;
     object-fit: cover;
   }
+  .logo-contenedor .texto-logo{
+    font-size: 15px;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -126,6 +130,10 @@
   }
   .container-main-objeto-social .lista-objeto{
     line-height: 1.5em;
+  }
+  .logo-contenedor .texto-logo{
+    font-size: 30px;
+    margin: 0 auto 0 200px;
   }
 }
 
@@ -290,8 +298,9 @@
     padding-top: 70px;
   }
   .logo-contenedor .texto-logo{
-    font-size: 50px;
-    margin: 0 auto 0 200px;
+    font-size: 25px;
+    margin: 0 auto 0 100px;
+    /* margin-left: 15px; */
   }
   main .eventos{
     width: 95%;
@@ -471,8 +480,9 @@ main figure img{
     margin: 0px 10px;
   }
   .logo-contenedor .texto-logo{
-    font-size: 30px;
-    margin: 0 auto 0 80px;
+    font-size: 20px;
+    margin: 0 auto 0 32px;
+    /* margin-left: 15px; */
   }
   main .eventos-img img{
     width: 100%;
@@ -571,8 +581,9 @@ main figure img{
     font-size: 1.1em;
 }
 .logo-contenedor .texto-logo{
-  font-size: 30px;
-  margin: 0 auto 0 60px;
+  font-size: 15px;
+  margin: 0 auto 0 20px;
+  /* margin-left: 15px; */
 }
   .modal-container .modal-apadrinar {
     width: 90%;
@@ -614,8 +625,8 @@ main figure img{
     font-size: 1.1em;
   }
   .logo-contenedor .texto-logo{
-    font-size: 30px;
-    margin: 0 auto 0 30px;
+    font-size: 15px;
+    margin: 0 auto 0 15px;
   }
   .family .content-text{
     padding-top: 60px;
