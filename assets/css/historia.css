@@ -71,7 +71,7 @@ font-family: var(--parrafo-font);
     margin: 30px;
     color: #fff;
     margin-top: 60px;
-    line-height: 2.0em;
+    line-height: 1.5em;
     height: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
     padding: 20px;
@@ -81,7 +81,7 @@ font-family: var(--parrafo-font);
     margin: 30px;
     color: #fff;
     margin-top: 60px;
-    line-height: 2.0em;
+    line-height: 1.5em;
     height: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
     padding: 20px;
@@ -117,7 +117,7 @@ font-family: var(--parrafo-font);
         list-style-type:circle;
         text-align: justify;
         margin: 40px;
-        line-height: 2.5;
+        line-height: 2.0em;
         /* font-size: var(--parrafo-size); */
         font-size: 1.2rem;
     }
