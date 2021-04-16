@@ -10,7 +10,7 @@ main .family{
     width: 100%;
     height: calc(100vh - 90px);
     text-align: center;
-    background-image: url(../Dibujos/dibujo.jpg);
+    background-image: url(../Dibujos/nuestra_fundacion.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

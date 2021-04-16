@@ -25,6 +25,7 @@ main{
 main figure img{
     width: 100vw;
     object-fit: cover;
+    position: absolute;
 }
 .hero{
     width: 100%;
