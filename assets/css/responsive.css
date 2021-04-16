@@ -336,14 +336,7 @@ main figure img{
   line-height: 1.5;
   font-size: 1.0rem;
 }
-main {
-  background-image: url(/assets/img/destop.jpg);
-  background-repeat: no-repeat;
-  background-position:left;
-  background-size: cover;
-  /* width: 100vw; 
-  position: absolute; */
-}
+
 .container-main-objeto-social .lista-objeto{
   line-height: 1.5em;
 }
