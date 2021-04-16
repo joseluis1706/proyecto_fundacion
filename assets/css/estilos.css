@@ -22,9 +22,11 @@ main{
     left: 0;
 } */
 
-main figure img{
-    width: 100vw; 
-    position: absolute;
+main {
+    background-image: url(/assets/img/destop.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
 }
 .hero{
     width: 100%;
