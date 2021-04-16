@@ -2,6 +2,8 @@
 main{
     margin-top: 90px;
     font-family: var(--parrafo-font);
+    background: linear-gradient(to bottom, var(--gris_3) , var(--gris_4));
+    color: white;
 }
 main h1{
     text-align: center;
@@ -16,7 +18,7 @@ main h1{
     margin: 0 auto;
     text-align: center;
     font-size: 1.5rem;
-    color: var(--azul);
+    color:white;
     font-family: var(--parrafo-font);
     margin-bottom: 30px;
 }
@@ -26,7 +28,7 @@ main .eventos{
 }
 main .eventos article{
     padding-bottom: 30px;
-    border-bottom: 1px solid var(--azul);
+    border-bottom: 1px solid var(--naranja);
 }
 
 main .eventos-img{ 
