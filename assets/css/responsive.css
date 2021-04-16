@@ -340,6 +340,9 @@ main figure img{
 .container-main-objeto-social .lista-objeto{
   line-height: 1.5em;
 }
+.carousel-item img{
+  object-fit: none;
+  }
 }
 
 /* ------------------------------------------------------- */
@@ -485,6 +488,9 @@ main figure img{
   .modal-container .modal-apadrinar {
     width: 80%;
   }
+  .carousel-item img{
+    object-fit: none;
+    }
 
   /* ---------MODAL DE DESARROLLADORES-------------- */
   .modal-centrado {
@@ -501,7 +507,6 @@ main figure img{
   .container-main-objeto-social .lista-objeto{
     line-height: 1.5em;
   }
-
 }
 
 /* ------------------------------------------------------- */
@@ -583,6 +588,9 @@ main figure img{
   .container-main-objeto-social .lista-objeto{
     line-height: 1.5em;
   }
+  .carousel-item img{
+    object-fit: none;
+    }
 }
 
 
@@ -626,4 +634,7 @@ main figure img{
   .container-main-objeto-social .lista-objeto{
     line-height: 1.5em;
   }
+  .carousel-item img{
+    object-fit: none;
+    }
 }
