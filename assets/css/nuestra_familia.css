@@ -334,7 +334,7 @@ address a{
     width: auto;
 }
 .header-desarrolladores {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
